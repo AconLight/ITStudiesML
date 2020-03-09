@@ -5,10 +5,11 @@ cwd = getcwd()
 
 columnSplitter = "^"
 
-def parseAddConf(conf, path):
-    with open(cwd.split("src" + sep + "main")[0] + "conf" + sep + path, newline='') as csvfile:
-        confReader = reader(csvfile, delimiter=' ', quotechar='|')
-        for row in confReader:
+
+def parse_add_conf(conf, path):
+    with open(cwd.split("src" + sep + "main")[0] + "conf" + sep + path, newline='') as csv_file:
+        conf_reader = reader(csv_file, delimiter=' ', quotechar='|')
+        for row in conf_reader:
             columns = row[1].split(columnSplitter)
             if len(columns) < 2:
                 conf.update({row[0]: row[1]})

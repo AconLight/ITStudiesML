@@ -1,5 +1,5 @@
 import sys
-from src.common.conf import parseAddConf
+from src.common.conf import parse_add_conf
 from src.dataLoading.dataLoader import DataLoader
 from src.evaluation.evaluationManager import EvaluationManager
 from src.modelProcessing.modelProcessor import ModelProcessor
@@ -10,25 +10,25 @@ dataLoadingConfigsPath = "dataLoadingConfigs"
 modelProcessingConfigsPath = "modelProcessingConfigs"
 evaluationConfigsPath = "evaluationConfigs"
 
-defaultDataLoadingConfigsPath = "defaultConfig"+ sep + "dataLoading.csv"
+defaultDataLoadingConfigsPath = "defaultConfig" + sep + "dataLoading.csv"
 defaultModelProcessingConfigsPath = "defaultConfig" + sep + "modelProcessing.csv"
 defaultEvaluationConfigsPath = "defaultConfig" + sep + "evaluation.csv"
 
 runArgs = sys.argv
-runArgsLength = len(runArgs) - 1 # first arg is an execution path, dunno why...
+runArgsLength = len(runArgs) - 1  # first arg is an execution path, dunno why...
 
-dataLoadingConf = parseAddConf({}, defaultDataLoadingConfigsPath)
-modelProcessingConf = parseAddConf({}, defaultModelProcessingConfigsPath)
-evaluationConf = parseAddConf({}, defaultEvaluationConfigsPath)
+dataLoadingConf = parse_add_conf({}, defaultDataLoadingConfigsPath)
+modelProcessingConf = parse_add_conf({}, defaultModelProcessingConfigsPath)
+evaluationConf = parse_add_conf({}, defaultEvaluationConfigsPath)
 
 if runArgsLength > 0:
-    dataLoadingConf = parseAddConf(dataLoadingConf, dataLoadingConfigsPath + sep + runArgs[1])
+    dataLoadingConf = parse_add_conf(dataLoadingConf, dataLoadingConfigsPath + sep + runArgs[1])
 
 if runArgsLength > 1:
-    modelProcessingConf = parseAddConf(modelProcessingConf, defaultModelProcessingConfigsPath + sep + runArgs[2])
+    modelProcessingConf = parse_add_conf(modelProcessingConf, defaultModelProcessingConfigsPath + sep + runArgs[2])
 
 if runArgsLength > 2:
-    evaluationConf = parseAddConf(evaluationConf, evaluationConfigsPath + sep + runArgs[3])
+    evaluationConf = parse_add_conf(evaluationConf, evaluationConfigsPath + sep + runArgs[3])
 
 print(dataLoadingConf)
 
@@ -42,6 +42,3 @@ classificationOutput = modelProcessor.process(dataSet)
 results = evaluationManager.evaluate(classificationOutput)
 
 results.show()
-
-
-
