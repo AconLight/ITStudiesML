@@ -2,7 +2,8 @@
 
 class DataLoader:
     def __init__(self, conf):
-        pass
+        self.feedColumns = conf['feedColumns']
+        self.classificationColumn = conf['classificationColumn']
 
     def load(self):
 
