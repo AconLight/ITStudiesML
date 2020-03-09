@@ -1,13 +1,13 @@
-import csv
-import os
+from csv import reader
+from os import getcwd, sep
 
-cwd = os.getcwd()
+cwd = getcwd()
 
 columnSplitter = "^"
 
 def parseAddConf(conf, path):
-    with open(cwd.split("src/main")[0] + "conf/" + path, newline='') as csvfile:
-        confReader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    with open(cwd.split("src" + sep + "main")[0] + "conf" + sep + path, newline='') as csvfile:
+        confReader = reader(csvfile, delimiter=' ', quotechar='|')
         for row in confReader:
             columns = row[1].split(columnSplitter)
             if len(columns) < 2:
