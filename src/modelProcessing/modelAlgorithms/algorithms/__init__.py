@@ -1,0 +1,1 @@
+from src.modelProcessing.modelAlgorithms.algorithms.dummyAlgorithm import DummyAlgorithm
