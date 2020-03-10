@@ -5,6 +5,14 @@ class Dataset():
         self.target_columns = []
         self.data_columns = []
 
+    # def get_string_columns(self):
+    #     # (df.applymap(type) == str).all(0)
+    #     return self.data.select_dtypes(include='object').columns
+
+    def get_columns(self, column_name_list):
+        self.check_if_columns_are_in_data(column_name_list)
+        return self.data.filter(items=column_name_list)
+
     def set_target_columns(self, column_name_list):
         self.check_if_columns_are_in_data(column_name_list)
         self.target_columns = column_name_list
@@ -33,18 +41,18 @@ class Dataset():
         return self.target_columns
 
     def drop_column(self, column_name):
-        self.check_if_column_is_in_not_data(column_name)
+        self.check_if_column_is_in_not_data_columns(column_name)
         self.data = self.data.drop(column_name, 1)
 
-    def check_if_column_is_in_not_data(self, column_name):
+    def check_if_column_is_in_not_data_columns(self, column_name):
         if not self.is_column_in_data(column_name):
             raise ValueError("Column which doesn't exist \"" + column_name + "\"")
 
     def add_column(self, column_name, values):
-        self.check_if_column_is_in_data(column_name)
+        self.check_if_column_is_in_data_columns(column_name)
         self.data[column_name] = values
 
-    def check_if_column_is_in_data(self, column_name):
+    def check_if_column_is_in_data_columns(self, column_name):
         if self.is_column_in_data(column_name):
             raise ValueError("Column already exists \"" + column_name + "\"")
 

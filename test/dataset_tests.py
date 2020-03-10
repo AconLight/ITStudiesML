@@ -5,7 +5,7 @@ import copy
 
 from numpy import NaN
 
-from src.dataLoading.dataset import Dataset
+from src.common.dataset import Dataset
 
 
 class DatasetTests(TestCase):
@@ -103,3 +103,15 @@ class DatasetTests(TestCase):
         #then
         with self.assertRaises(ValueError):
             dataset.set_data_columns(data_columns)
+
+    def test_should_get_columns(self):
+        #given
+        dataset = copy.deepcopy(DatasetTests.students_dataset)
+        selected_columns = ['Name', 'City']
+
+        #when
+        data_columns = dataset.get_columns(selected_columns)
+        print(data_columns.head())
+
+        #then
+        self.assertEqual(len(data_columns.columns),2)
