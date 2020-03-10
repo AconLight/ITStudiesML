@@ -15,4 +15,4 @@ class DataLoaderTests(unittest.TestCase):
         data = data_loader.load()
 
         #then
-        self.assertNotEquals(data, None)
+        self.assertNotEqual(data.shape, None)

@@ -7,8 +7,5 @@ class DataLoader:
         self.data_file_path = configuration.get_entry('data_file_path')
 
 
-    def load(self):
-
-        # TODO
-
+    def load(self, encoding="ISO-8859-1"):
         pass
