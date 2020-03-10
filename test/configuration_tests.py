@@ -15,5 +15,3 @@ class ConfigurationTests(unittest.TestCase):
         #then -> throws exception
         with self.assertRaises(ConfigurationError):
             configuration.get_entry(missing_entry_name)
-
-    # def
