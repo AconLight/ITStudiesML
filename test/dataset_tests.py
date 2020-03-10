@@ -6,20 +6,14 @@ import copy
 from numpy import NaN
 
 from src.common.dataset import Dataset
+from test.data.datasets_object_mother import DatasetsObjectMother
 
 
 class DatasetTests(TestCase):
-    students_dataset = Dataset(pd.DataFrame([('jack', 34, 'Sydeny', 'Australia'),
-                                             ('Riti', 30, 'Delhi', 'India'),
-                                             ('Vikas', 31, 'Mumbai', 'India'),
-                                             ('Neelu', 32, 'Bangalore', 'India'),
-                                             ('John', 16, 'New York', 'US'),
-                                             ('Mike', 17, 'las vegas', 'US')],
-                                            columns=['Name', 'Age', 'City', 'Country']))
 
     def test_should_add_new_column(self):
         # given
-        dataset = copy.deepcopy(DatasetTests.students_dataset)
+        dataset = copy.deepcopy(DatasetsObjectMother.students_dataset)
         new_column_name = "new_column"
         new_column_values = [5, NaN, NaN, 10, 1, 7]
 
@@ -32,7 +26,7 @@ class DatasetTests(TestCase):
 
     def test_not_allow_to_add_existing_column(self):
         # given
-        dataset = copy.deepcopy(DatasetTests.students_dataset)
+        dataset = copy.deepcopy(DatasetsObjectMother.students_dataset)
         column_name = 'Name'
         # when
         # then
@@ -41,7 +35,7 @@ class DatasetTests(TestCase):
 
     def test_should_drop_column(self):
         # given
-        dataset = copy.deepcopy(DatasetTests.students_dataset)
+        dataset = copy.deepcopy(DatasetsObjectMother.students_dataset)
         column_name = "Name"
 
         # when
@@ -52,7 +46,7 @@ class DatasetTests(TestCase):
 
     def test_not_allow_to_drop_non_existing_column(self):
         # given
-        dataset = copy.deepcopy(DatasetTests.students_dataset)
+        dataset = copy.deepcopy(DatasetsObjectMother.students_dataset)
         column_name = 'Not Existing Column'
         # when
         # then
@@ -61,7 +55,7 @@ class DatasetTests(TestCase):
 
     def test_should_set_target_columns(self):
         # given
-        dataset = copy.deepcopy(DatasetTests.students_dataset)
+        dataset = copy.deepcopy(DatasetsObjectMother.students_dataset)
         target_columns = ['Name', 'City']
 
         # when
@@ -72,7 +66,7 @@ class DatasetTests(TestCase):
 
     def test_not_allow_to_set_non_existing_column_as_target(self):
         # given
-        dataset = copy.deepcopy(DatasetTests.students_dataset)
+        dataset = copy.deepcopy(DatasetsObjectMother.students_dataset)
         target_columns = ['Name', 'Not Existing Column']
 
         # when
@@ -82,7 +76,7 @@ class DatasetTests(TestCase):
 
     def test_should_set_data_columns(self):
         # given
-        dataset = copy.deepcopy(DatasetTests.students_dataset)
+        dataset = copy.deepcopy(DatasetsObjectMother.students_dataset)
         data_columns = ['Name', 'City']
 
         # when
@@ -93,7 +87,7 @@ class DatasetTests(TestCase):
 
     def test_not_allow_to_set_data_columns_which_are_target_columns(self):
         #given
-        dataset = copy.deepcopy(DatasetTests.students_dataset)
+        dataset = copy.deepcopy(DatasetsObjectMother.students_dataset)
         data_columns = ['Name', 'City']
         target_columns = ['Age', 'City']
 
@@ -106,7 +100,7 @@ class DatasetTests(TestCase):
 
     def test_should_get_columns(self):
         #given
-        dataset = copy.deepcopy(DatasetTests.students_dataset)
+        dataset = copy.deepcopy(DatasetsObjectMother.students_dataset)
         selected_columns = ['Name', 'City']
 
         #when

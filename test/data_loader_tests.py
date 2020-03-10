@@ -1,7 +1,7 @@
 import unittest
 
 from src.common.configuration.conf import Configuration, ConfigurationType
-from src.dataLoading.csvDataLoader import CsvDataLoader
+from src.dataLoading.csv_data_loader import CsvDataLoader
 
 
 class DataLoaderTests(unittest.TestCase):
