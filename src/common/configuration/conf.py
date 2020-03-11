@@ -59,3 +59,4 @@ class DataLoadingConfigurationEntries(enum.Enum):
     FEED_COLUMNS = "feedColumns"
     CLASSIFICATION_COLUMN = 'classificationColumn'
     DATA_FILEPATH = 'data_file_path'
+    TEST_SET_PERCENTAGE = 'test_set_percentage'

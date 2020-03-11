@@ -58,3 +58,4 @@ class Dataset():
 
     def is_column_in_data(self, column_name):
         return column_name in self.data.columns
+

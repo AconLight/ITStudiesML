@@ -37,8 +37,8 @@ dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, dataLoad
 modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, modelProcessingConf))
 evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION, evaluationConf))
 
-dataSet = dataLoader.load()
-classificationOutput = modelProcessor.process(dataSet)
+X_train, X_test, Y_train, Y_test = dataLoader.load()
+classificationOutput = modelProcessor.process(X_train, X_test, Y_train, Y_test)
 results = evaluationManager.evaluate(classificationOutput)
 
 results.show()

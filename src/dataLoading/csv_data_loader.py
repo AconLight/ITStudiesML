@@ -1,5 +1,6 @@
 from src.common.dataset import Dataset
 from src.dataLoading.dataLoader import DataLoader
+from src.dataLoading.preprocessing.train_test_split import TrainTestSplitter
 import pandas as pd
 import os
 class CsvDataLoader(DataLoader):
@@ -13,7 +14,7 @@ class CsvDataLoader(DataLoader):
             dataset = Dataset(pd.read_csv(self.data_file_path, encoding="ISO-8859-1"))
             dataset.set_data_columns(self.feedColumns)
             dataset.set_target_columns([self.classificationColumn])
-            return dataset
+            return TrainTestSplitter.split(dataset, self.test_set_percentage)
         except FileNotFoundError:
             raise FileNotFoundError('Dataset file has not been found')
         except Exception as e:
