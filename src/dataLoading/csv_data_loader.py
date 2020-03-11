@@ -14,6 +14,8 @@ class CsvDataLoader(DataLoader):
             dataset.set_data_columns(self.feedColumns)
             dataset.set_target_columns([self.classificationColumn])
             return dataset
+        except FileNotFoundError:
+            raise FileNotFoundError('Dataset file has not been found')
         except Exception as e:
             raise type(e)(e.message + ' Loading dataset with different encoding (utf-8, latin, ...) may help!')
 
