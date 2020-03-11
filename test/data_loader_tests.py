@@ -7,7 +7,7 @@ from src.dataLoading.csv_data_loader import CsvDataLoader
 class DataLoaderTests(unittest.TestCase):
     def test_csv_dataset_loading(self):
         #given
-        config_map = {'data_file_path' : '/home/hyphe/WFTIMS/MachineLearning/ITStudiesML/test/data/Speed-Dating-Data.csv'}
+        config_map = {'data_file_path' : 'test/data/Speed-Dating-Data.csv'}
         configuration = Configuration(ConfigurationType.DATALOADING, config_map)
         data_loader = CsvDataLoader(configuration)
 
