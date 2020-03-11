@@ -1,11 +1,8 @@
-from unittest import TestCase
-
-import pandas as pd
 import copy
+from unittest import TestCase
 
 from numpy import NaN
 
-from src.common.dataset import Dataset
 from test.data.datasets_object_mother import DatasetsObjectMother
 
 
