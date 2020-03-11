@@ -16,6 +16,8 @@ class EvaluationManager:
     def evaluate(self, Y_pred, Y_test):
         results = Results()
 
-        # TODO
+        # TODO Y_pred, Y_test standard
+        # TODO metrics
+        # TODO show results
 
         return results
