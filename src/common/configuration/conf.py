@@ -63,3 +63,6 @@ class DataLoadingConfigurationEntries(enum.Enum):
     CLASSIFICATION_COLUMN = 'classificationColumn'
     DATA_FILEPATH = 'data_file_path'
     TEST_SET_PERCENTAGE = 'test_set_percentage'
+
+class EvaluationConfigurationEntries(enum.Enum):
+    METRICS = 'evaluationMetrics'
