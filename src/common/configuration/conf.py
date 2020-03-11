@@ -43,6 +43,9 @@ class Configuration():
         self.type = configuration_type
 
     def get_entry(self, entry_name):
+        if isinstance(entry_name, enum.Enum):
+            entry_name = entry_name.value
+
         if self.config == None:
             raise TypeError("Configuration object has not been set")
 
