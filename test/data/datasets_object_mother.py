@@ -20,6 +20,6 @@ class DatasetsObjectMother():
         {
             DataLoadingConfigurationEntries.FEED_COLUMNS : ['gender','order','partner','samerace','age_o','race_o'],
             DataLoadingConfigurationEntries.CLASSIFICATION_COLUMN: 'match',
-            DataLoadingConfigurationEntries.DATA_FILEPATH: 'test/data/Speed-Dating-Data.csv'.replace('/', os.sep),
+            DataLoadingConfigurationEntries.DATA_FILEPATH: 'data/Speed-Dating-Data.csv'.replace('/', os.sep),
         }
     )
