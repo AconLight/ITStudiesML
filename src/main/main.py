@@ -1,5 +1,5 @@
 import sys
-from src.common.conf import parse_add_conf
+from src.common.configuration.conf import parse_add_conf
 from src.dataLoading.dataLoader import DataLoader
 from src.evaluation.evaluationManager import EvaluationManager
 from src.modelProcessing.modelProcessor import ModelProcessor
