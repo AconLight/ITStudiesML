@@ -13,8 +13,16 @@ def parse_add_conf(conf, path):
     with open(cwd.split("src" + sep + "main")[0] + "conf" + sep + path, newline='') as csv_file:
         conf_reader = reader(csv_file, delimiter=' ', quotechar='|')
         for row in conf_reader:
-            columns = row[1].split(columnSplitter)
-            if len(columns) < 2:
+            columns = row[1].split(ConfigurationLoader.COLUMN_SPLITTER)
+            to_rem = []
+            for c in range(len(columns)):
+                if columns[c] == "":
+                    to_rem.append(c)
+
+            for c in range(len(to_rem)):
+                columns.pop(to_rem[c])
+
+            if len(columns) + len(to_rem) < 2:
                 conf.update({row[0]: row[1]})
             else:
                 conf.update({row[0]: columns})
@@ -30,7 +38,15 @@ class ConfigurationLoader():
             conf_reader = reader(csv_file, delimiter=' ', quotechar='|')
             for row in conf_reader:
                 columns = row[1].split(ConfigurationLoader.COLUMN_SPLITTER)
-                if len(columns) < 2:
+                to_rem = []
+                for c in range(len(columns)):
+                    if columns[c] == "":
+                        to_rem.append(c)
+
+                for c in range(len(to_rem)):
+                    columns.pop(to_rem[c])
+
+                if len(columns) + len(to_rem) < 2:
                     conf.update({row[0]: row[1]})
                 else:
                     conf.update({row[0]: columns})
