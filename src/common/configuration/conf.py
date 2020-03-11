@@ -22,12 +22,14 @@ def parse_add_conf(conf, path):
 
 
 class ConfigurationLoader():
+    COLUMN_SPLITTER = "^"
+
     @staticmethod
     def parse_add_conf(conf, path, configuration_type):
         with open(cwd.split("src" + sep + "main")[0] + "conf" + sep + path, newline='') as csv_file:
             conf_reader = reader(csv_file, delimiter=' ', quotechar='|')
             for row in conf_reader:
-                columns = row[1].split(columnSplitter)
+                columns = row[1].split(ConfigurationLoader.COLUMN_SPLITTER)
                 if len(columns) < 2:
                     conf.update({row[0]: row[1]})
                 else:
@@ -52,3 +54,8 @@ class ConfigurationType(enum.Enum):
    DATALOADING = "DataLoading"
    CLASSIFICATION = "Classification"
    EVALUATION = "Evaluation"
+
+class DataLoadingConfigurationEntries(enum.Enum):
+    FEED_COLUMNS = "feedColumns"
+    CLASSIFICATION_COLUMN = 'classificationColumn'
+    DATA_FILEPATH = 'data_file_path'
