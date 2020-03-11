@@ -1,6 +1,6 @@
 import sys
-from src.common.configuration.conf import parse_add_conf
-from src.dataLoading.dataLoader import DataLoader
+from src.common.configuration.conf import parse_add_conf, Configuration, ConfigurationType
+from src.dataLoading.csv_data_loader import CsvDataLoader
 from src.evaluation.evaluationManager import EvaluationManager
 from src.modelProcessing.modelProcessor import ModelProcessor
 from os.path import sep
@@ -33,9 +33,9 @@ if runArgsLength > 2:
 print(dataLoadingConf)
 
 # creating model (dataLoading - modelProcessing - evaluation)
-dataLoader = DataLoader(dataLoadingConf)
-modelProcessor = ModelProcessor(modelProcessingConf)
-evaluationManager = EvaluationManager(evaluationConf)
+dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, dataLoadingConf))
+modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, modelProcessingConf))
+evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION, evaluationConf))
 
 dataSet = dataLoader.load()
 classificationOutput = modelProcessor.process(dataSet)
