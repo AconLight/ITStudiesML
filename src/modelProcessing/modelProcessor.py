@@ -1,16 +1,11 @@
 import importlib
 
-from src.common.classificationOutput import ClassificationOutput
-
-
 class ModelProcessor:
     def __init__(self, configuration):
         self.model = getattr(importlib.import_module("src.modelProcessing.modelAlgorithms.algorithms"), configuration.get_entry('modelAlgorithm'))()
 
-    def process(self, X_train, X_test, Y_train, Y_test):
+    def process(self, X_train, X_test, Y_train):
         self.model.train(X_train, Y_train)
-        Y_pred = self.model.predict(X_test)
-
-        return ClassificationOutput(Y_test, Y_pred)
+        return self.model.predict(X_test)
 
 

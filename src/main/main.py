@@ -38,7 +38,7 @@ modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, 
 evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION, evaluationConf))
 
 X_train, X_test, Y_train, Y_test = dataLoader.load()
-classificationOutput = modelProcessor.process(X_train, X_test, Y_train, Y_test)
-results = evaluationManager.evaluate(classificationOutput)
+Y_pred = modelProcessor.process(X_train, X_test, Y_train)
+results = evaluationManager.evaluate(Y_pred, Y_test)
 
 results.show()
