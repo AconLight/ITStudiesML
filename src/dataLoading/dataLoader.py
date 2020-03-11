@@ -6,7 +6,7 @@ class DataLoader:
         self.feedColumns = configuration.get_entry(DataLoadingConfigurationEntries.FEED_COLUMNS)
         self.classificationColumn = configuration.get_entry(DataLoadingConfigurationEntries.CLASSIFICATION_COLUMN)
         self.data_file_path = configuration.get_entry(DataLoadingConfigurationEntries.DATA_FILEPATH)
-        self.test_set_percentage = float(configuration.get_entry(DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value))
+        self.test_set_percentage = float(configuration.get_entry(DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE))
 
 
     def load(self, encoding="ISO-8859-1"):
