@@ -11,14 +11,14 @@ class CsvDataLoader(DataLoader):
     def load(self, encoding="ISO-8859-1"):
         try:
             print(os.getcwd())
-            dataset = Dataset(pd.read_csv(self.data_file_path, encoding="ISO-8859-1"))
+            dataset = Dataset(pd.read_csv(self.data_file_path, encoding=encoding))
             dataset.set_data_columns(self.feedColumns)
             dataset.set_target_columns([self.classificationColumn])
-            return TrainTestSplitter.split(dataset, self.test_set_percentage)
+            return dataset
         except FileNotFoundError:
             raise FileNotFoundError('Dataset file has not been found')
         except Exception as e:
-            raise type(e)(e.message + ' Loading dataset with different encoding (utf-8, latin, ...) may help!')
+            raise type(e)('Loading dataset with different encoding (utf-8, latin, ...) may help!')
 
 
 

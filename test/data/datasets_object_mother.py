@@ -18,8 +18,9 @@ class DatasetsObjectMother():
     speed_dating_csv_configuration = Configuration(
         ConfigurationType.DATALOADING,
         {
-            DataLoadingConfigurationEntries.FEED_COLUMNS : ['gender','order','partner','samerace','age_o','race_o'],
-            DataLoadingConfigurationEntries.CLASSIFICATION_COLUMN: 'match',
-            DataLoadingConfigurationEntries.DATA_FILEPATH: 'test/data/Speed-Dating-Data.csv'.replace('/', os.sep),
+            DataLoadingConfigurationEntries.FEED_COLUMNS.value : ['gender','order','partner','samerace','age_o','race_o'],
+            DataLoadingConfigurationEntries.CLASSIFICATION_COLUMN.value: 'match',
+            DataLoadingConfigurationEntries.DATA_FILEPATH.value: 'test/data/Speed-Dating-Data.csv'.replace('/', os.sep),
+            DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value : 15,
         }
     )

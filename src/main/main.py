@@ -1,6 +1,8 @@
 import sys
-from src.common.configuration.conf import parse_add_conf, Configuration, ConfigurationType
+from src.common.configuration.conf import parse_add_conf, Configuration, ConfigurationType, \
+    DataLoadingConfigurationEntries
 from src.dataLoading.csv_data_loader import CsvDataLoader
+from src.dataLoading.preprocessing.train_test_split import TrainTestSplitter
 from src.evaluation.evaluationManager import EvaluationManager
 from src.modelProcessing.modelProcessor import ModelProcessor
 from os.path import sep
@@ -33,11 +35,13 @@ if runArgsLength > 2:
 print(dataLoadingConf)
 
 # creating model (dataLoading - modelProcessing - evaluation)
-dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, dataLoadingConf))
+data_loading_configuration = Configuration(ConfigurationType.DATALOADING, dataLoadingConf)
+dataLoader = CsvDataLoader(data_loading_configuration)
 modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, modelProcessingConf))
 evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION, evaluationConf))
 
-X_train, X_test, Y_train, Y_test = dataLoader.load()
+dataset = dataLoader.load()
+X_train, X_test, Y_train, Y_test = TrainTestSplitter.split(dataset,float(data_loading_configuration.get_entry(DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value)))
 Y_pred = modelProcessor.process(X_train, X_test, Y_train)
 results = evaluationManager.evaluate(Y_pred, Y_test)
 

@@ -4,6 +4,9 @@ class Dataset():
         self.data = dataframe
         self.target_columns = []
         self.data_columns = []
+        self.column_mapping = {}
+        for column in self.data.columns:
+            self.column_mapping[column] = [column]
 
     # def get_string_columns(self):
     #     # (df.applymap(type) == str).all(0)
@@ -19,7 +22,7 @@ class Dataset():
 
     def check_if_columns_are_in_data(self, column_name_list):
         illegal_column_names = [column_name for column_name in column_name_list if
-                                column_name not in self.data.columns]
+                                column_name not in self.column_mapping.keys()]
         if len(illegal_column_names) > 0:
             raise ValueError("Trying to set column(s) which does not occur in dataset: " + ','.join(
                 illegal_column_names))
@@ -42,6 +45,7 @@ class Dataset():
 
     def drop_column(self, column_name):
         self.check_if_column_is_in_not_data_columns(column_name)
+        del self.column_mapping[column_name]
         self.data = self.data.drop(column_name, 1)
 
     def check_if_column_is_in_not_data_columns(self, column_name):
@@ -50,6 +54,7 @@ class Dataset():
 
     def add_column(self, column_name, values):
         self.check_if_column_is_in_data_columns(column_name)
+        self.column_mapping[column_name] = column_name
         self.data[column_name] = values
 
     def check_if_column_is_in_data_columns(self, column_name):
@@ -57,5 +62,5 @@ class Dataset():
             raise ValueError("Column already exists \"" + column_name + "\"")
 
     def is_column_in_data(self, column_name):
-        return column_name in self.data.columns
+        return column_name in self.column_mapping.keys()
 
