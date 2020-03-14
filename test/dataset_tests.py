@@ -102,7 +102,6 @@ class DatasetTests(TestCase):
 
         #when
         data_columns = dataset.get_columns(selected_columns)
-        print(data_columns.head())
 
         #then
         self.assertEqual(len(data_columns.columns),2)
