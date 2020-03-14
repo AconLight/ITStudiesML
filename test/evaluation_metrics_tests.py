@@ -1,6 +1,7 @@
 from unittest import TestCase
 
 from src.evaluation.evaluationMetric.confusion_matrix import ConfusionMatrix
+from src.evaluation.evaluationMetric.metrics.accuracy import AccuracyMetric
 from test.data.datasets_object_mother import DatasetsObjectMother
 
 
@@ -35,7 +36,7 @@ class EvaluationMetricsTest(TestCase):
         # given
         dataset_with_encoded_columns = DatasetsObjectMother.students_dataset_with_binarized_country_column
         binarized_classified_column = 'US'
-        Y_pred = dataset_with_encoded_columns.get_column('US')
+        Y_pred = dataset_with_encoded_columns.get_column(binarized_classified_column)
         Y_test = Y_pred
 
         #when
@@ -45,4 +46,15 @@ class EvaluationMetricsTest(TestCase):
         self.assertEqual(confusion_matrix.shape, (2, 2))
 
 
+    def test_calculate_accuracy_metric(self):
+        # given
+        dataset_with_encoded_columns = DatasetsObjectMother.students_dataset_with_binarized_country_column
+        binarized_classified_column = 'US'
+        Y_pred = dataset_with_encoded_columns.get_column(binarized_classified_column)
+        Y_test = Y_pred
 
+        # when
+        accuracy = AccuracyMetric().calculate(Y_pred, Y_pred)
+
+        #then
+        self.assertEqual(accuracy,1)
