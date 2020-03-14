@@ -2,6 +2,7 @@ import copy
 from unittest import TestCase
 
 from src.dataLoading.preprocessing.column_binarizer import ColumnBinarizer
+from src.dataLoading.preprocessing.column_encoder import ColumnEncoder
 from src.dataLoading.preprocessing.train_test_split import TrainTestSplitter
 from test.data.datasets_object_mother import DatasetsObjectMother
 
@@ -50,3 +51,20 @@ class PreprocessingTests(TestCase):
         #then
         number_of_columns_after_replacement = dataset.get_number_of_columns()
         self.assertEqual( number_of_columns_after_replacement - number_of_columns_before_replacement, 2 )
+
+
+    def test_encoding_string_column(self):
+        #given
+        dataset = copy.deepcopy(DatasetsObjectMother.students_dataset)
+        encoded_column_name = 'Country'
+        column_encoder = ColumnEncoder()
+
+        #when
+        number_of_columns_before_replacement = dataset.get_number_of_columns()
+        column_encoder.encode_column(dataset, encoded_column_name)
+
+        #then
+        number_of_columns_after_replacement = dataset.get_number_of_columns()
+        self.assertEqual(number_of_columns_before_replacement, number_of_columns_after_replacement)
+        self.assertTrue(dataset.is_column_in_data(encoded_column_name))
+
