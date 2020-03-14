@@ -11,7 +11,9 @@ class CsvDataLoader(DataLoader):
     def load(self, encoding="ISO-8859-1"):
         try:
             print(os.getcwd())
-            dataset = Dataset(pd.read_csv(self.data_file_path, encoding=encoding))
+            data = pd.read_csv(self.data_file_path, encoding=encoding)
+            data = data.dropna(subset=self.feedColumns + [self.classificationColumn])
+            dataset = Dataset(data)
             dataset.set_data_columns(self.feedColumns)
             dataset.set_target_columns([self.classificationColumn])
             return dataset

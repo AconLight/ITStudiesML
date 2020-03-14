@@ -17,6 +17,7 @@ class EvaluationManager:
         results = Results()
 
         for m in range(len(self.metrics)):
+            print("metric " + str(m) + ":")
             print(self.metrics[m].calculate(Y_pred, Y_test))
 
 

@@ -1,4 +1,7 @@
 import sys
+
+import pandas
+
 from src.common.configuration.conf import parse_add_conf, Configuration, ConfigurationType, \
     DataLoadingConfigurationEntries
 from src.dataLoading.csv_data_loader import CsvDataLoader
@@ -42,7 +45,6 @@ evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION
 
 dataset = dataLoader.load()
 X_train, Y_train, X_test, Y_test = TrainTestSplitter.split(dataset,float(data_loading_configuration.get_entry(DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value)))
-print(Y_train)
 Y_pred = modelProcessor.process(X_train, X_test, Y_train)
 results = evaluationManager.evaluate(Y_pred, Y_test)
 
