@@ -1,3 +1,4 @@
 from src.modelProcessing.modelAlgorithms.algorithms.dummyAlgorithm import DummyAlgorithm
 from src.modelProcessing.modelAlgorithms.algorithms.svm import SVM
 from src.modelProcessing.modelAlgorithms.algorithms.naive_bayes import NaiveBayes
+from src.modelProcessing.modelAlgorithms.algorithms.decisionTree import DecisionTree
