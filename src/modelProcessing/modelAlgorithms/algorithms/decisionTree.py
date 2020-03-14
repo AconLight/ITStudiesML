@@ -3,8 +3,13 @@ from sklearn.datasets import load_iris
 
 
 class DecisionTree():
-    def __init__(self, criterion, splitter, max_depth, min_samples_split, min_samples_leaf) -> None:
+    def __init__(self) -> None:
         super().__init__()
+        # criterion =
+        # splitter =
+        # max_depth =
+        # min_samples_split =
+        # min_samples_leaf =
         self.classifier = tree.DecisionTreeClassifier(criterion, splitter, max_depth, min_samples_split,
                                                       min_samples_leaf)
 
