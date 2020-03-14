@@ -9,7 +9,7 @@ class EvaluationManager:
     def __init__(self, configuration):
         print(configuration.config)
         self.metrics = []
-        metric_names = configuration.get_entry(EvaluationConfigurationEntries.METRICS)
+        metric_names = configuration.get_entry(EvaluationConfigurationEntries.METRICS.value)
         for m in range(len(metric_names)):
             self.metrics.append(getattr(importlib.import_module("src.evaluation.evaluationMetric.metrics"), metric_names[m])())
 
