@@ -32,6 +32,7 @@ class DatasetsObjectMother():
                                                                           columns=['Name', 'Age', 'City', 'Australia',
                                                                                    'India', 'US']))
 
+
     speed_dating_csv_configuration = Configuration(
         ConfigurationType.DATALOADING,
         {
