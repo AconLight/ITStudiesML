@@ -1,5 +1,4 @@
 from sklearn.svm import SVC
-from sklearn.metrics import accuracy_score
 
 class SVM:
     def __init__(self):
