@@ -1,1 +1,2 @@
 from src.modelProcessing.modelAlgorithms.algorithms.dummyAlgorithm import DummyAlgorithm
+from src.modelProcessing.modelAlgorithms.algorithms.svm import SVM
