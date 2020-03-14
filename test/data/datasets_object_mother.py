@@ -18,7 +18,7 @@ class DatasetsObjectMother():
     students_dataset_with_encoded_columns = Dataset(pd.DataFrame([('jack', 34, 0, 0),
                                                                   ('Riti', 30, 1, 1),
                                                                   ('Neelu', 32, 2, 1),
-                                                                  ('John', 16, '3', 2),
+                                                                  ('John', 16, 3, 2),
                                                                   ('Mike', 17, 4, 2),
                                                                   ('Joshua', 22, 4, 2)],
                                                                  columns=['Name', 'Age', 'City', 'Country']))
@@ -40,6 +40,6 @@ class DatasetsObjectMother():
                                                                  'race_o'],
             DataLoadingConfigurationEntries.CLASSIFICATION_COLUMN.value: 'match',
             DataLoadingConfigurationEntries.DATA_FILEPATH.value: 'test/data/Speed-Dating-Data.csv'.replace('/', os.sep),
-            DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value: 15,
+            DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value: 0.15,
         }
     )

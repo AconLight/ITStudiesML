@@ -5,6 +5,14 @@ import random
 class TrainTestSplitter():
     @staticmethod
     def split(dataset, test_set_percentage):
+        data_columns = dataset.get_data_columns()
+        target_columns = dataset.get_target_columns()
+
+        if(len(data_columns) == 0):
+            raise ValueError("There are not data columns specified")
+        if (len(target_columns) == 0):
+            raise ValueError("There are not target columns specified")
+
         X = dataset.get_columns(dataset.get_data_columns())
         Y = dataset.get_columns(dataset.get_target_columns())
 

@@ -41,7 +41,7 @@ modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, 
 evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION, evaluationConf))
 
 dataset = dataLoader.load()
-X_train, X_test, Y_train, Y_test = TrainTestSplitter.split(dataset,float(data_loading_configuration.get_entry(DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value)))
+X_train, Y_train, X_test, Y_test = TrainTestSplitter.split(dataset,float(data_loading_configuration.get_entry(DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value)))
 Y_pred = modelProcessor.process(X_train, X_test, Y_train)
 results = evaluationManager.evaluate(Y_pred, Y_test)
 
