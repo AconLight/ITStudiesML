@@ -1,13 +1,15 @@
-from scipy.stats import norm
-import numpy as np
-import pandas as pd
 from sklearn.neural_network import MLPClassifier
 
 
 class MLP:
     def __init__(self, conf) -> None:
         super().__init__()
-        self.classifier = MLPClassifier(alpha=1e-2, hidden_layer_sizes=(20, 2))
+        alpha = float(conf.get_entry('alpha'))
+        hidden_layer_count = int(conf.get_entry('hidden_layer_count'))
+        hidden_layer_neurons = int(conf.get_entry('hidden_layer_neurons'))
+        hidden_layer_sizes = (hidden_layer_neurons,hidden_layer_count)
+        solver = conf.get_entry('solver')
+        self.classifier = MLPClassifier(alpha=alpha, hidden_layer_sizes=hidden_layer_sizes, solver=solver)
 
     def train(self, x_train, y_train):
         self.classifier.fit(x_train, y_train)

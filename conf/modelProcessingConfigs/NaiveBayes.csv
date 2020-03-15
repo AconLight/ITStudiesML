@@ -1,1 +1,2 @@
 modelAlgorithm NaiveBayes
+var_smoothing 1e-9
