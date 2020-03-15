@@ -4,3 +4,4 @@ from src.modelProcessing.modelAlgorithms.algorithms.naive_bayes import NaiveBaye
 from src.modelProcessing.modelAlgorithms.algorithms.decisionTree import DecisionTree
 from src.modelProcessing.modelAlgorithms.algorithms.mlp import MLP
 from src.modelProcessing.modelAlgorithms.algorithms.knn import KNN
+from src.modelProcessing.modelAlgorithms.algorithms.random_forest import RandomForest
