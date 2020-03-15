@@ -27,6 +27,8 @@ db_confs = dataLoadingConfs['db_confs']
 model_confs = modelProcessingConfs['model_confs']
 evaluation_confs = evaluationConfs['evaluation_confs']
 
+print()
+
 for db in range(len(db_confs)):
     db_conf = parse_add_conf({}, dataLoadingConfigsPath + sep + db_confs[db])
     for m in range(len(model_confs)):
