@@ -30,7 +30,7 @@ if runArgsLength > 0:
     dataLoadingConf = parse_add_conf(dataLoadingConf, dataLoadingConfigsPath + sep + runArgs[1])
 
 if runArgsLength > 1:
-    modelProcessingConf = parse_add_conf(modelProcessingConf, defaultModelProcessingConfigsPath + sep + runArgs[2])
+    modelProcessingConf = parse_add_conf(modelProcessingConf, modelProcessingConfigsPath + sep + runArgs[2])
 
 if runArgsLength > 2:
     evaluationConf = parse_add_conf(evaluationConf, evaluationConfigsPath + sep + runArgs[3])

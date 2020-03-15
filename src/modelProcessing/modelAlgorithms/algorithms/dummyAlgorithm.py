@@ -2,7 +2,7 @@ from pandas import DataFrame
 
 
 class DummyAlgorithm:
-    def __init__(self):
+    def __init__(self, conf):
         print("DummyAlgorithm initialized")
 
     def train(self, X_train, Y_train):

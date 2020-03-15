@@ -5,9 +5,9 @@ from sklearn.neural_network import MLPClassifier
 
 
 class MLP:
-    def __init__(self) -> None:
+    def __init__(self, conf) -> None:
         super().__init__()
-        self.classifier = MLPClassifier(alpha=1e-6, hidden_layer_sizes=(20, 2))
+        self.classifier = MLPClassifier(alpha=1e-2, hidden_layer_sizes=(20, 2))
 
     def train(self, x_train, y_train):
         self.classifier.fit(x_train, y_train)

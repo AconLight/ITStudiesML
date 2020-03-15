@@ -1,7 +1,7 @@
 from sklearn.svm import SVC
 
 class SVM:
-    def __init__(self):
+    def __init__(self, conf):
         self.clf = SVC(kernel='linear')
         print("SVM initialized")
 

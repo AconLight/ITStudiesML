@@ -1,16 +1,14 @@
-from sklearn.tree import tree
-from sklearn.datasets import load_iris
-
+from sklearn.tree import DecisionTreeClassifier
 
 class DecisionTree():
-    def __init__(self) -> None:
+    def __init__(self, conf) -> None:
         super().__init__()
-        criterion = "gini"
-        splitter = "best"
-        max_depth = 2
-        min_samples_split = 2
-        min_samples_leaf = 1
-        self.classifier = tree.DecisionTreeClassifier(criterion, splitter, max_depth, min_samples_split,
+        criterion = conf.get_entry('criterion')
+        splitter = conf.get_entry('splitter')
+        max_depth = int(conf.get_entry('max_depth'))
+        min_samples_split = int(conf.get_entry('min_samples_split'))
+        min_samples_leaf = int(conf.get_entry('min_samples_leaf'))
+        self.classifier = DecisionTreeClassifier(criterion, splitter, max_depth, min_samples_split,
                                                       min_samples_leaf)
 
     def train(self,X_train, Y_train):

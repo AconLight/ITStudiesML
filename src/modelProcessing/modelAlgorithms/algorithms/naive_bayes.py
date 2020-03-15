@@ -5,7 +5,7 @@ from sklearn.naive_bayes import GaussianNB
 
 
 class NaiveBayes():
-    def __init__(self) -> None:
+    def __init__(self, conf) -> None:
         super().__init__()
         self.classifier = GaussianNB()
 

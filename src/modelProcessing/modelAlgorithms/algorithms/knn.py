@@ -2,7 +2,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 
 class KNN:
-    def __init__(self) -> None:
+    def __init__(self, conf) -> None:
         super().__init__()
         self.classifier = KNeighborsClassifier()
 
