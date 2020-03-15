@@ -1,0 +1,4 @@
+feedColumns age^Medu^Fedu^traveltime^studytime^failures^famrel^freetime^goout^Dalc^Walc^health^absences
+classificationColumn sex
+data_file_path data/Student-Alcohol-Consumption.csv
+test_set_percentage 0.3
