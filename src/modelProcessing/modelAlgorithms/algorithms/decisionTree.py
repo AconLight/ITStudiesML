@@ -13,6 +13,7 @@ class DecisionTree:
                                                  min_samples_split=min_samples_split,
                                                  min_samples_leaf=min_samples_leaf)
 
+        
     def train(self, x_train, y_train):
         self.classifier.fit(x_train, y_train)
 

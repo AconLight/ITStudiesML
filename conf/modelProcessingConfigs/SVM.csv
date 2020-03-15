@@ -1,1 +1,3 @@
 modelAlgorithm SVM
+kernel poly
+tol 1e-2

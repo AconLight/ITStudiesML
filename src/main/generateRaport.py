@@ -45,11 +45,6 @@ for db in range(len(db_confs)):
                 db_conf[DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value]))
             Y_pred = modelProcessor.process(X_train, X_test, Y_train)
             results = evaluationManager.evaluate(Y_pred, Y_test)
+            # results not implemented yet TODO but not necessary for now
             results.show()
             print()
-
-
-
-
-
-
