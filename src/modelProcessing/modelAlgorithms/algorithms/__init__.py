@@ -2,3 +2,4 @@ from src.modelProcessing.modelAlgorithms.algorithms.dummyAlgorithm import DummyA
 from src.modelProcessing.modelAlgorithms.algorithms.svm import SVM
 from src.modelProcessing.modelAlgorithms.algorithms.naive_bayes import NaiveBayes
 from src.modelProcessing.modelAlgorithms.algorithms.decisionTree import DecisionTree
+from src.modelProcessing.modelAlgorithms.algorithms.knn import KNN
