@@ -1,13 +1,8 @@
-from src.evaluation.evaluationMetric.confusion_matrix import ConfusionMatrix
-import numpy as np
+from sklearn.metrics import accuracy_score
 
-class AccuracyMetric():
 
-    def calculate(self, pd_Y_pred, pd_Y_test):
-        confusion_matrix = ConfusionMatrix().calculate(pd_Y_pred, pd_Y_test)
+class AccuracyMetric:
 
-        number_of_examples = np.sum(np.sum(confusion_matrix))
-        correctly_classified = np.sum(np.diag(confusion_matrix))
-
-        return correctly_classified/number_of_examples
-
+    @staticmethod
+    def calculate(y_prediction, y_true):
+        return accuracy_score(y_true, y_prediction)
