@@ -3,7 +3,6 @@ from sklearn.svm import SVC
 class SVM:
     def __init__(self, conf):
         self.clf = SVC(kernel='linear')
-        print("SVM initialized")
 
     def train(self, X_train, Y_train):
         self.clf.fit(X_train, Y_train)

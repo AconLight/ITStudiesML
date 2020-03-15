@@ -1,3 +1,4 @@
+modelAlgorithm DecisionTree
 criterion gini
 splitter best
 max_depth 2

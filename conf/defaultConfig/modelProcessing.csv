@@ -1,3 +1,1 @@
-dupa dupaValue
-dupa2 dupaValue2
-modelAlgorithm RandomForest
+model_confs RandomForest.csv^DecisionTree.csv^KNN.csv^MLP.csv^NaiveBayes.csv^SVM.csv

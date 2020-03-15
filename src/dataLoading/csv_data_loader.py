@@ -10,7 +10,7 @@ class CsvDataLoader(DataLoader):
     # Datasets may require encoding with retry with different encodings to load
     def load(self, encoding="ISO-8859-1"):
         try:
-            print(os.getcwd())
+            print("database: " + self.data_file_path)
             data = pd.read_csv(self.data_file_path, encoding=encoding)
             data = data.dropna(subset=self.feedColumns + [self.classificationColumn])
             dataset = Dataset(data)
