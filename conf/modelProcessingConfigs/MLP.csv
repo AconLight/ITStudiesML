@@ -1,5 +1,5 @@
 modelAlgorithm MLP
-alpha 1e-5^
+alpha 1e-3^
 hidden_layer_count 2^
 hidden_layer_neurons 10^
 solver adam^
