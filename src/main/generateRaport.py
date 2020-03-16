@@ -29,6 +29,8 @@ db_confs = dataLoadingConfs['db_confs']
 model_confs = modelProcessingConfs['model_confs']
 evaluation_confs = evaluationConfs['evaluation_confs']
 
+best_results = {}
+
 print()
 
 file = open("results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
@@ -49,12 +51,17 @@ for db in range(len(db_confs)):
         # print(list(model_params_product))
 
         my_model_conf = {'modelAlgorithm': model_algorithm}
+
+
+
         for m in list(model_params_product):
             for k in range(len(model_params_keys)):
                 my_model_conf[model_params_keys[k]] = m[k]
 
+            best_results[db_confs[db] + ", " + str(model_algorithm)] = 0
             file.write(str(my_model_conf) + '\n')
             for e in range(len(evaluation_confs)):
+                print(my_model_conf)
                 evaluation_conf = parse_add_conf({}, evaluationConfigsPath + sep + evaluation_confs[e])
                 # creating model (dataLoading - modelProcessing - evaluation)
                 dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, db_conf), file=file)
@@ -67,8 +74,14 @@ for db in range(len(db_confs)):
                     db_conf[DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value]))
                 Y_pred = modelProcessor.process(X_train, X_test, Y_train)
                 results = evaluationManager.evaluate(Y_pred, Y_test)
-                # results not implemented yet TODO but not necessary for now
-                results.show()
+                if best_results[db_confs[db] + ", " + str(model_algorithm)] < results[0]:
+                    best_results[db_confs[db] + ", " + str(model_algorithm)] = str(my_model_conf) + str(results[0])
                 file.write('\n')
 
+
 file.close()
+file2 = open("best_results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
+for key in best_results:
+    file2.write(key + " - " + str(best_results[key]) + "\n")
+
+file2.close()

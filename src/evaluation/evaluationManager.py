@@ -14,12 +14,11 @@ class EvaluationManager:
             self.metrics.append(getattr(importlib.import_module("src.evaluation.evaluationMetric.metrics"), self.metric_names[m])())
 
     def evaluate(self, Y_pred, Y_test):
-        results = Results()
-
+        results = []
         for m in range(len(self.metrics)):
-            self.file.write(self.metric_names[m] + " = " + str(self.metrics[m].calculate(Y_pred, Y_test)) + '\n')
-
-
-        # TODO show results
+            result = self.metrics[m].calculate(Y_pred, Y_test)
+            result_str = self.metric_names[m] + " = " + str(result)
+            self.file.write(result_str + '\n')
+            results.append(result)
 
         return results
