@@ -1,0 +1,3720 @@
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '50', 'max_leaf_nodes': '50'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8378158109209454
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '50', 'max_leaf_nodes': '100'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8391836734693877
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '50', 'max_leaf_nodes': '150'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8351648351648352
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '100', 'max_leaf_nodes': '50'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8462479608482871
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '100', 'max_leaf_nodes': '100'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8442723196086425
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '100', 'max_leaf_nodes': '150'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.83278955954323
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '150', 'max_leaf_nodes': '50'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8354378818737271
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '150', 'max_leaf_nodes': '100'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8451848841934173
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '150', 'max_leaf_nodes': '150'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8405560098119379
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '50', 'max_leaf_nodes': '50'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8258381030253475
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '50', 'max_leaf_nodes': '100'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8276283618581907
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '50', 'max_leaf_nodes': '150'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8378048780487805
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '100', 'max_leaf_nodes': '50'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.835577315381477
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '100', 'max_leaf_nodes': '100'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8353758169934641
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '100', 'max_leaf_nodes': '150'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8241534067727458
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '150', 'max_leaf_nodes': '50'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.832452216348109
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '150', 'max_leaf_nodes': '100'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8376172990616075
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '150', 'max_leaf_nodes': '150'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8295454545454546
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '50', 'max_leaf_nodes': '50'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8347648261758691
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '50', 'max_leaf_nodes': '100'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8263718263718264
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '50', 'max_leaf_nodes': '150'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8275580921320832
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '100', 'max_leaf_nodes': '50'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8364600326264274
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '100', 'max_leaf_nodes': '100'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8278522127486805
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '100', 'max_leaf_nodes': '150'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8188110749185668
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '150', 'max_leaf_nodes': '50'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8334690553745928
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '150', 'max_leaf_nodes': '100'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8401622718052738
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '150', 'max_leaf_nodes': '150'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8475061324611611
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8254486133768353
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8401956787607012
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8371428571428572
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8368678629690048
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.828080229226361
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8302808302808303
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8360588716271463
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8356500408830744
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8473813420621932
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8462164361269324
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8338097182523478
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8310948310948311
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8377605230894973
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8361858190709046
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8176638176638177
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8352412101390024
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8401956787607012
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8277551020408164
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.839038304808476
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8411405295315683
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8311582381729201
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8392492860057119
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8376172990616075
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8395918367346938
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8357783211083945
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8396728016359918
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8308194048104361
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8351603735282176
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8461538461538461
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8391180073499388
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8323158323158323
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8469387755102041
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.826157595450853
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8412892696858425
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.839038304808476
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8242473555736372
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8273615635179153
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8359918200408998
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8394308943089431
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8397226753670473
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8415032679738562
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8409922732818219
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8280358598207009
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8355048859934854
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8273615635179153
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8289795918367346
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8376835236541599
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8200325732899023
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8432896890343698
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8361190379127599
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8354430379746836
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8312270688952303
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8403258655804481
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8467479674796748
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8531810766721044
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8448346263781135
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.848694942903752
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8467183041174072
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8376068376068376
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8330618892508144
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8340130505709625
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8310893512851897
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8343508343508343
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8418907905460473
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8374948833401555
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8316993464052288
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8437118437118437
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8406682966585167
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8405207485760781
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8445258445258446
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8369255795038634
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8277551020408164
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8344155844155844
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8310204081632653
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8382233088834555
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8327243199350386
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8353037097431716
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8372093023255814
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8387096774193549
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8363265306122449
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8320455469703132
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8336722244814966
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8407331975560082
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8415478615071283
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8364600326264274
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8380252957976336
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.836526701997554
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8359120521172638
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8302808302808303
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8418263350998777
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8251633986928104
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8445258445258446
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8377496942519363
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8336738863914998
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8462479608482871
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8233618233618234
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8453061224489796
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8328577252344068
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8407151564404713
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8432410423452769
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8442991418062934
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8343533251733987
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8317680685994283
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8297352342158859
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8356387306753458
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.833265389319201
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.84
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8384458077709611
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'auto'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8133659331703341
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'ball_tree'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8169588259274357
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'kd_tree'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8187755102040817
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'brute'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8121187474583164
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'auto'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8224032586558044
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'ball_tree'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8330618892508144
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'kd_tree'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8246329526916802
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'brute'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8342857142857143
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'auto'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.7945373012637587
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'ball_tree'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.7759674134419552
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'kd_tree'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.7926530612244898
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'brute'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.7995934959349593
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'auto'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8253773969808241
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'ball_tree'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8168155970755483
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'kd_tree'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8203252032520325
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'brute'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN
+AccuracyMetric = 0.8326547231270358
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8246116107931316
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8409461663947798
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8327228327228328
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8292583537082314
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8359788359788359
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.830142566191446
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8493038493038493
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8272912423625255
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.836526701997554
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8407331975560082
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8296658516707417
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8272912423625255
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8459967320261438
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8327213382292942
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8327228327228328
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8329930583911801
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8335378323108384
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8313008130081301
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8269938650306748
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.839788014675907
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8209624796084829
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8368013055895552
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8310893512851897
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8325865580448065
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8298045602605864
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8344883815735834
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.832520325203252
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8480909829406986
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8439918533604888
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8258928571428571
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8348960456583775
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8226661231145536
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8335373317013464
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8231931400571662
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8363858363858364
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8464983713355049
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8380913539967374
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8273615635179153
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8398533007334963
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.831905344757242
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8361858190709046
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.834623217922607
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8336738863914998
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8216612377850163
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8336738863914998
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8319772172497966
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8193311582381729
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8370098039215687
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8381455876372509
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8394458027709861
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8368765331152903
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8418907905460473
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8397226753670473
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8402125051082959
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8344182262001627
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8392857142857143
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8427929767251939
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8353708231458843
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8375510204081633
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8289795918367346
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8299347471451876
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8299430431244914
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.838893409275834
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.835985312117503
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8390243902439024
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8372756933115824
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8240325865580448
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8401139137510171
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.835577315381477
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8308943089430895
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8358513679052675
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8420408163265306
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8238891153689359
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8266721044045677
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8483489604565838
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8342857142857143
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8265472312703583
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8373420301671423
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.829995913363302
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8471882640586798
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Speed-Dating-Data.csv
+model algorithm: MLP
+AccuracyMetric = 0.8405383360522023
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-9'}
+database: data/Speed-Dating-Data.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.8433292533659731
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-8'}
+database: data/Speed-Dating-Data.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.8374846876276031
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-7'}
+database: data/Speed-Dating-Data.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.8354378818737271
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-6'}
+database: data/Speed-Dating-Data.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.8480032599837001
+
+{'modelAlgorithm': 'SVM', 'kernel': 'poly', 'tol': '1e-2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.8321763985300122
+
+{'modelAlgorithm': 'SVM', 'kernel': 'poly', 'tol': '1e-3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.8382233088834555
+
+{'modelAlgorithm': 'SVM', 'kernel': 'poly', 'tol': '1e-4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.8449612403100775
+
+{'modelAlgorithm': 'SVM', 'kernel': 'linear', 'tol': '1e-2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.8356443719412724
+
+{'modelAlgorithm': 'SVM', 'kernel': 'linear', 'tol': '1e-3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.8420838420838421
+
+{'modelAlgorithm': 'SVM', 'kernel': 'linear', 'tol': '1e-4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.8331973898858075
+
+{'modelAlgorithm': 'SVM', 'kernel': 'rbf', 'tol': '1e-2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.8300122000813339
+
+{'modelAlgorithm': 'SVM', 'kernel': 'rbf', 'tol': '1e-3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.8404907975460123
+
+{'modelAlgorithm': 'SVM', 'kernel': 'rbf', 'tol': '1e-4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.833943833943834
+
+{'modelAlgorithm': 'SVM', 'kernel': 'sigmoid', 'tol': '1e-2'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.7368421052631579
+
+{'modelAlgorithm': 'SVM', 'kernel': 'sigmoid', 'tol': '1e-3'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.7411477411477412
+
+{'modelAlgorithm': 'SVM', 'kernel': 'sigmoid', 'tol': '1e-4'}
+database: data/Speed-Dating-Data.csv
+model algorithm: SVM
+AccuracyMetric = 0.7452099470036689
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '50', 'max_leaf_nodes': '50'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '50', 'max_leaf_nodes': '100'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '50', 'max_leaf_nodes': '150'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.7310924369747899
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '100', 'max_leaf_nodes': '50'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '100', 'max_leaf_nodes': '100'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.7142857142857143
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '100', 'max_leaf_nodes': '150'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '150', 'max_leaf_nodes': '50'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '150', 'max_leaf_nodes': '100'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6470588235294118
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '150', 'max_leaf_nodes': '150'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6218487394957983
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '50', 'max_leaf_nodes': '50'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '50', 'max_leaf_nodes': '100'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.7310924369747899
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '50', 'max_leaf_nodes': '150'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6974789915966386
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '100', 'max_leaf_nodes': '50'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6218487394957983
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '100', 'max_leaf_nodes': '100'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.7058823529411765
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '100', 'max_leaf_nodes': '150'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.7142857142857143
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '150', 'max_leaf_nodes': '50'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '150', 'max_leaf_nodes': '100'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6218487394957983
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '150', 'max_leaf_nodes': '150'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '50', 'max_leaf_nodes': '50'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '50', 'max_leaf_nodes': '100'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '50', 'max_leaf_nodes': '150'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6218487394957983
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '100', 'max_leaf_nodes': '50'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '100', 'max_leaf_nodes': '100'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '100', 'max_leaf_nodes': '150'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '150', 'max_leaf_nodes': '50'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '150', 'max_leaf_nodes': '100'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.7058823529411765
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '150', 'max_leaf_nodes': '150'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7142857142857143
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7394957983193278
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7226890756302521
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7226890756302521
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7058823529411765
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7058823529411765
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7815126050420168
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6470588235294118
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7310924369747899
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7394957983193278
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7310924369747899
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7478991596638656
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7142857142857143
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7310924369747899
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6218487394957983
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5966386554621849
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5714285714285714
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5630252100840336
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6470588235294118
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7310924369747899
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6974789915966386
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7142857142857143
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5546218487394958
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7142857142857143
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5294117647058824
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7058823529411765
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7310924369747899
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7142857142857143
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5798319327731093
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6050420168067226
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6974789915966386
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5882352941176471
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7394957983193278
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5882352941176471
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6974789915966386
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7058823529411765
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7142857142857143
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7478991596638656
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7647058823529411
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7058823529411765
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5798319327731093
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6470588235294118
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6470588235294118
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5210084033613446
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6050420168067226
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6050420168067226
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5714285714285714
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5798319327731093
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7142857142857143
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6974789915966386
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6470588235294118
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6470588235294118
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5966386554621849
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6050420168067226
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6218487394957983
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6470588235294118
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7647058823529411
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5882352941176471
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'auto'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'ball_tree'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.5798319327731093
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'kd_tree'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6470588235294118
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'brute'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'auto'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6134453781512605
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'ball_tree'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'kd_tree'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'brute'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'auto'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'ball_tree'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6134453781512605
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'kd_tree'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6218487394957983
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'brute'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6218487394957983
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'auto'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.5462184873949579
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'ball_tree'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.6218487394957983
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'kd_tree'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.5966386554621849
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'brute'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: KNN
+AccuracyMetric = 0.5966386554621849
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5714285714285714
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5294117647058824
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5126050420168067
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.47058823529411764
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5378151260504201
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5294117647058824
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5126050420168067
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5798319327731093
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.46218487394957986
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.4789915966386555
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.7226890756302521
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5378151260504201
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.7058823529411765
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5378151260504201
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5042016806722689
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5546218487394958
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6134453781512605
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.4957983193277311
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.7142857142857143
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6050420168067226
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5126050420168067
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5966386554621849
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.4957983193277311
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6470588235294118
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5126050420168067
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.46218487394957986
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.453781512605042
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5630252100840336
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.42016806722689076
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5042016806722689
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5798319327731093
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.48739495798319327
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5126050420168067
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.47058823529411764
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6050420168067226
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5546218487394958
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5966386554621849
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.453781512605042
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5714285714285714
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5546218487394958
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5630252100840336
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5210084033613446
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6050420168067226
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5042016806722689
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.7394957983193278
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.7563025210084033
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.48739495798319327
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5210084033613446
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6722689075630253
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5378151260504201
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.4957983193277311
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6218487394957983
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5126050420168067
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.48739495798319327
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5042016806722689
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5294117647058824
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6134453781512605
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5042016806722689
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5714285714285714
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.47058823529411764
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5126050420168067
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5042016806722689
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.4957983193277311
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5462184873949579
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6554621848739496
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5630252100840336
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5126050420168067
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.6134453781512605
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: MLP
+AccuracyMetric = 0.5378151260504201
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-9'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.6974789915966386
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-8'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.7058823529411765
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-7'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-6'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.7563025210084033
+
+{'modelAlgorithm': 'SVM', 'kernel': 'poly', 'tol': '1e-2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.5798319327731093
+
+{'modelAlgorithm': 'SVM', 'kernel': 'poly', 'tol': '1e-3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'SVM', 'kernel': 'poly', 'tol': '1e-4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'SVM', 'kernel': 'linear', 'tol': '1e-2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.6890756302521008
+
+{'modelAlgorithm': 'SVM', 'kernel': 'linear', 'tol': '1e-3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.6386554621848739
+
+{'modelAlgorithm': 'SVM', 'kernel': 'linear', 'tol': '1e-4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.6638655462184874
+
+{'modelAlgorithm': 'SVM', 'kernel': 'rbf', 'tol': '1e-2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.680672268907563
+
+{'modelAlgorithm': 'SVM', 'kernel': 'rbf', 'tol': '1e-3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'SVM', 'kernel': 'rbf', 'tol': '1e-4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.6302521008403361
+
+{'modelAlgorithm': 'SVM', 'kernel': 'sigmoid', 'tol': '1e-2'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.5126050420168067
+
+{'modelAlgorithm': 'SVM', 'kernel': 'sigmoid', 'tol': '1e-3'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.5714285714285714
+
+{'modelAlgorithm': 'SVM', 'kernel': 'sigmoid', 'tol': '1e-4'}
+database: data/Student-Alcohol-Consumption.csv
+model algorithm: SVM
+AccuracyMetric = 0.5462184873949579
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '50', 'max_leaf_nodes': '50'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9837837837837838
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '50', 'max_leaf_nodes': '100'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 1.0
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '50', 'max_leaf_nodes': '150'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9890710382513661
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '100', 'max_leaf_nodes': '50'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9864864864864865
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '100', 'max_leaf_nodes': '100'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9918256130790191
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '100', 'max_leaf_nodes': '150'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 1.0
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '150', 'max_leaf_nodes': '50'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9890710382513661
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '150', 'max_leaf_nodes': '100'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9947780678851175
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '150', 'max_leaf_nodes': '150'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 1.0
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '50', 'max_leaf_nodes': '50'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9894179894179894
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '50', 'max_leaf_nodes': '100'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9893048128342246
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '50', 'max_leaf_nodes': '150'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9920844327176781
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '100', 'max_leaf_nodes': '50'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9864864864864865
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '100', 'max_leaf_nodes': '100'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9973045822102425
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '100', 'max_leaf_nodes': '150'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9867021276595744
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '150', 'max_leaf_nodes': '50'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9973614775725593
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '150', 'max_leaf_nodes': '100'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 1.0
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '100', 'max_depth': '150', 'max_leaf_nodes': '150'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9813829787234043
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '50', 'max_leaf_nodes': '50'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.997289972899729
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '50', 'max_leaf_nodes': '100'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9944444444444445
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '50', 'max_leaf_nodes': '150'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9973404255319149
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '100', 'max_leaf_nodes': '50'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9972527472527473
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '100', 'max_leaf_nodes': '100'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 1.0
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '100', 'max_leaf_nodes': '150'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.994535519125683
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '150', 'max_leaf_nodes': '50'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9832869080779945
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '150', 'max_leaf_nodes': '100'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9973474801061007
+
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '150', 'max_depth': '150', 'max_leaf_nodes': '150'}
+database: data/CHERNAIR.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.9972451790633609
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5190217391304348
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.49865229110512127
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5146666666666667
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.47074468085106386
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.4907161803713528
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5336927223719676
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.48556430446194226
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5078947368421053
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5220994475138122
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7880434782608695
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7841530054644809
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7583333333333333
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.814621409921671
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7796143250688705
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7771587743732591
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7707182320441989
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.782258064516129
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7790055248618785
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9178082191780822
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9340659340659341
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8814016172506739
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8938992042440318
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9137466307277629
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9111111111111111
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9346049046321526
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9224598930481284
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8900804289544236
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.39669421487603307
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.39436619718309857
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.3978779840848806
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.3682795698924731
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6051136363636364
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.42857142857142855
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.36
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.36363636363636365
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.46195652173913043
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.45528455284552843
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.3967828418230563
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.34782608695652173
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.4709141274238227
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5638297872340425
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.4273972602739726
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5336927223719676
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6454293628808865
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6485013623978202
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6747311827956989
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7506849315068493
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5797872340425532
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5859154929577465
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7441253263707572
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.4794520547945205
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.38482384823848237
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5755968169761273
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'gini', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6170798898071626
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5645161290322581
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6070460704607046
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5815217391304348
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6124661246612466
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5956873315363881
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6102150537634409
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5831062670299727
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5946666666666667
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6073298429319371
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8837837837837837
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.845108695652174
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8611111111111112
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8615819209039548
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8649350649350649
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8707124010554089
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8817204301075269
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8472222222222222
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8494623655913979
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9110512129380054
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9368421052631579
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9329758713136729
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.8976377952755905
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9142091152815014
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9013698630136986
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9138381201044387
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9191374663072777
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'best', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.9247311827956989
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.42473118279569894
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.43869209809264303
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.31733333333333336
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.2809917355371901
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.33783783783783783
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.3194805194805195
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.3027027027027027
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.3825136612021858
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '2', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.3873626373626374
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.3873626373626374
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.3937007874015748
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.4359673024523161
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.46236559139784944
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5408970976253298
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5403225806451613
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.421195652173913
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5608465608465608
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '3', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5461956521739131
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6193029490616622
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6902173913043478
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '2', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7025495750708215
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7591623036649214
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7704485488126649
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '3', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.696
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '2'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.6169665809768637
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '3'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.7493188010899182
+
+{'modelAlgorithm': 'DecisionTree', 'criterion': 'entropy', 'splitter': 'random', 'max_depth': '4', 'min_samples_split': '4', 'min_samples_leaf': '4'}
+database: data/CHERNAIR.csv
+model algorithm: DecisionTree
+AccuracyMetric = 0.5684210526315789
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'auto'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9256198347107438
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'ball_tree'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9139784946236559
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'kd_tree'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.8921052631578947
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'brute'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9301075268817204
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'auto'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9128065395095368
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'ball_tree'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9285714285714286
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'kd_tree'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9344262295081968
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '4', 'algorithm': 'brute'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9590163934426229
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'auto'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.928374655647383
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'ball_tree'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9598930481283422
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'kd_tree'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9396325459317585
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '3', 'algorithm': 'brute'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9679144385026738
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'auto'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9453125
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'ball_tree'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9408602150537635
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'kd_tree'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9439775910364145
+
+{'modelAlgorithm': 'KNN', 'n_neighbors': '2', 'algorithm': 'brute'}
+database: data/CHERNAIR.csv
+model algorithm: KNN
+AccuracyMetric = 0.9560439560439561
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2210242587601078
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.3835616438356164
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.23684210526315788
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.24043715846994534
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.4568245125348189
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.20540540540540542
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.20533333333333334
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.22625698324022347
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.23872679045092837
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.3922077922077922
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.40691489361702127
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2526595744680851
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.3016304347826087
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2802197802197802
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.21525885558583105
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.4252577319587629
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.23733333333333334
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.23529411764705882
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.3168044077134986
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.24594594594594596
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.40443213296398894
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.6036269430051814
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.5395095367847411
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.21236559139784947
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.3155080213903743
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.23410404624277456
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-5', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.21081081081081082
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.24128686327077747
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.22371967654986524
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.23835616438356164
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.26229508196721313
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2618384401114206
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.22564102564102564
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.16486486486486487
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.22070844686648503
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.24517906336088155
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.4363143631436314
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.1883289124668435
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.3537234042553192
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.14402173913043478
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.22527472527472528
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.22133333333333333
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.4358288770053476
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.22554347826086957
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2868421052631579
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.335978835978836
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.5564304461942258
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.21808510638297873
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.20810810810810812
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2140921409214092
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.24598930481283424
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.4225352112676056
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.23796791443850268
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-4', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.22343324250681199
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.31232876712328766
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.21715817694369974
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.21351351351351353
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.23013698630136986
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.23421052631578948
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.24932975871313673
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2682926829268293
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.21774193548387097
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '1', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.21891891891891893
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2222222222222222
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.4122340425531915
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2560646900269542
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2140921409214092
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.27071823204419887
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.22493224932249323
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.27019498607242337
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.20441988950276244
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '2', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.21485411140583555
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.3767313019390582
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.25135135135135134
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '10', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.20218579234972678
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.5726027397260274
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2584856396866841
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '15', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.25833333333333336
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'adam'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.35584415584415585
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'lbfgs'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.27837837837837837
+
+{'modelAlgorithm': 'MLP', 'alpha': '1e-3', 'hidden_layer_count': '3', 'hidden_layer_neurons': '20', 'solver': 'sgd'}
+database: data/CHERNAIR.csv
+model algorithm: MLP
+AccuracyMetric = 0.2094240837696335
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-9'}
+database: data/CHERNAIR.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.7248677248677249
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-8'}
+database: data/CHERNAIR.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.743455497382199
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-7'}
+database: data/CHERNAIR.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.6974789915966386
+
+{'modelAlgorithm': 'NaiveBayes', 'var_smoothing': '1e-6'}
+database: data/CHERNAIR.csv
+model algorithm: NaiveBayes
+AccuracyMetric = 0.7683923705722071
+
+{'modelAlgorithm': 'SVM', 'kernel': 'poly', 'tol': '1e-2'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.7180851063829787
+
+{'modelAlgorithm': 'SVM', 'kernel': 'poly', 'tol': '1e-3'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.7287234042553191
+
+{'modelAlgorithm': 'SVM', 'kernel': 'poly', 'tol': '1e-4'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.7222222222222222
+
+{'modelAlgorithm': 'SVM', 'kernel': 'linear', 'tol': '1e-2'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.9733333333333334
+
+{'modelAlgorithm': 'SVM', 'kernel': 'linear', 'tol': '1e-3'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.9562841530054644
+
+{'modelAlgorithm': 'SVM', 'kernel': 'linear', 'tol': '1e-4'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.9835616438356164
+
+{'modelAlgorithm': 'SVM', 'kernel': 'rbf', 'tol': '1e-2'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.6920980926430518
+
+{'modelAlgorithm': 'SVM', 'kernel': 'rbf', 'tol': '1e-3'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.7123655913978495
+
+{'modelAlgorithm': 'SVM', 'kernel': 'rbf', 'tol': '1e-4'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.7021276595744681
+
+{'modelAlgorithm': 'SVM', 'kernel': 'sigmoid', 'tol': '1e-2'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.3660477453580902
+
+{'modelAlgorithm': 'SVM', 'kernel': 'sigmoid', 'tol': '1e-3'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.46380697050938335
+
+{'modelAlgorithm': 'SVM', 'kernel': 'sigmoid', 'tol': '1e-4'}
+database: data/CHERNAIR.csv
+model algorithm: SVM
+AccuracyMetric = 0.36243386243386244
+
