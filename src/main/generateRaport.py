@@ -10,6 +10,7 @@ from src.evaluation.evaluationManager import EvaluationManager
 from src.modelProcessing.modelProcessor import ModelProcessor
 from os.path import sep
 from itertools import product
+from datetime import datetime
 
 # reading specified configurations
 dataLoadingConfigsPath = "dataLoadingConfigs"
@@ -30,12 +31,14 @@ evaluation_confs = evaluationConfs['evaluation_confs']
 
 print()
 
+file = open("results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
+
 for db in range(len(db_confs)):
     db_conf = parse_add_conf({}, dataLoadingConfigsPath + sep + db_confs[db])
     for m in range(len(model_confs)):
         model_conf = parse_add_conf({}, modelProcessingConfigsPath + sep + model_confs[m])
         model_algorithm = model_conf.pop('modelAlgorithm', None)
-        #print(model_conf)
+        # print(model_conf)
         model_params = []
         model_params_keys = []
         for key in model_conf:
@@ -43,20 +46,21 @@ for db in range(len(db_confs)):
             model_params_keys.append(key)
 
         model_params_product = product(*model_params)
-        #print(list(model_params_product))
+        # print(list(model_params_product))
 
         my_model_conf = {'modelAlgorithm': model_algorithm}
         for m in list(model_params_product):
             for k in range(len(model_params_keys)):
                 my_model_conf[model_params_keys[k]] = m[k]
 
-            print(my_model_conf)
+            file.write(str(my_model_conf) + '\n')
             for e in range(len(evaluation_confs)):
                 evaluation_conf = parse_add_conf({}, evaluationConfigsPath + sep + evaluation_confs[e])
                 # creating model (dataLoading - modelProcessing - evaluation)
-                dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, db_conf))
-                modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, my_model_conf))
-                evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION, evaluation_conf))
+                dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, db_conf), file=file)
+                modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, my_model_conf), file=file)
+                evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION, evaluation_conf),
+                                                      file=file)
                 # processing
                 dataset = dataLoader.load()
                 X_train, Y_train, X_test, Y_test = TrainTestSplitter.split(dataset, float(
@@ -65,4 +69,6 @@ for db in range(len(db_confs)):
                 results = evaluationManager.evaluate(Y_pred, Y_test)
                 # results not implemented yet TODO but not necessary for now
                 results.show()
-                print()
+                file.write('\n')
+
+file.close()
