@@ -76,7 +76,8 @@ class ResultStorage:
                 best_results = []
 
                 for algorithm_id in self.algorithms:
-                    best_results += self.get_best_result(database_id, algorithm_id, metric_id)
+                    val = self.get_best_result(database_id, algorithm_id, metric_id)['metric_val']
+                    best_results.append([algorithm_id, val])
                     for parameter_id in self.algorithm_params_keys[algorithm_id]:
                         parameter_values = self.get_best_results_by_param(database_id, algorithm_id, metric_id,
                                                                           parameter_id)
