@@ -45,9 +45,6 @@ class Dataset():
         if len(illegal_columns) > 0:
             raise ValueError("Trying to set columns that are marked as target ones: " + ','.join(illegal_columns))
 
-    def get_splited_data_columns(self, splited_data_element_name):
-        return self.splited_data[splited_data_element_name]
-
     def get_data_columns(self):
         return self.data_columns
 

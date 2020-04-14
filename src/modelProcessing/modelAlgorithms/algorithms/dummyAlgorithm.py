@@ -1,14 +1,16 @@
 from pandas import DataFrame
 
+from src.modelProcessing.modelAlgorithms.algorithmBase import AlgorithmBase
 
-class DummyAlgorithm:
+
+class DummyAlgorithm(AlgorithmBase):
     def __init__(self, conf):
+        super().__init__(conf)
         print("DummyAlgorithm initialized")
 
-    def train(self, X_train, Y_train):
-        self.Y_train = Y_train
+    def train(self):
         print("DummyAlgorithm train")
 
-    def predict(self, X_test):
+    def predict(self):
         print("DummyAlgorithm predict")
-        return self.Y_train[:X_test.shape[0]]
+        return self.Y_train[:self.X_test.shape[0]]

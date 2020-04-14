@@ -69,11 +69,11 @@ for db in range(len(db_confs)):
                 evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION, evaluation_conf),
                                                       file=file)
                 # processing
-                dataset = dataLoader.load()
-                X_train, Y_train, X_test, Y_test = TrainTestSplitter.split(dataset, float(
-                    db_conf[DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value]))
-                Y_pred = modelProcessor.process(X_train, X_test, Y_train)
-                results = evaluationManager.evaluate(Y_pred, Y_test)
+                data_map = dataLoader.load()
+                print("dupa")
+                print(data_map.keys())
+                Y_pred = modelProcessor.process(data_map)
+                results = evaluationManager.evaluate(Y_pred, None)
                 if best_results[db_confs[db] + ", " + str(model_algorithm)] < results[0]:
                     best_results[db_confs[db] + ", " + str(model_algorithm)] = str(my_model_conf) + str(results[0])
                 file.write('\n')

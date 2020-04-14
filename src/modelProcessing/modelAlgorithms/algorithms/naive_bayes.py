@@ -1,14 +1,16 @@
 from sklearn.naive_bayes import GaussianNB
 
+from src.modelProcessing.modelAlgorithms.algorithmBase import AlgorithmBase
 
-class NaiveBayes:
-    def __init__(self, conf) -> None:
-        super().__init__()
+
+class NaiveBayes(AlgorithmBase):
+    def __init__(self, conf):
+        super().__init__(conf)
         var_smoothing = float(conf.get_entry('var_smoothing'))
         self.classifier = GaussianNB(var_smoothing=var_smoothing)
 
-    def train(self, x_train, y_train):
-        self.classifier.fit(x_train, y_train)
+    def train(self):
+        self.classifier.fit(self.X_train, self.Y_train)
 
-    def predict(self, x_test):
-        return self.classifier.predict(x_test)
+    def predict(self):
+        return self.classifier.predict(self.X_test)

@@ -1,9 +1,11 @@
 from sklearn.tree import DecisionTreeClassifier
 
+from src.modelProcessing.modelAlgorithms.algorithmBase import AlgorithmBase
 
-class DecisionTree:
-    def __init__(self, conf) -> None:
-        super().__init__()
+
+class DecisionTree(AlgorithmBase):
+    def __init__(self, conf):
+        super().__init__(conf)
         criterion = conf.get_entry('criterion')  # {“gini”, “entropy”}
         splitter = conf.get_entry('splitter')  # {“best”, “random”}
         max_depth = int(conf.get_entry('max_depth'))
@@ -13,9 +15,8 @@ class DecisionTree:
                                                  min_samples_split=min_samples_split,
                                                  min_samples_leaf=min_samples_leaf)
 
-        
-    def train(self, x_train, y_train):
-        self.classifier.fit(x_train, y_train)
+    def train(self):
+        self.classifier.fit(self.X_train, self.Y_train)
 
-    def predict(self, x_test):
-        return self.classifier.predict(x_test)
+    def predict(self):
+        return self.classifier.predict(self.X_test)
