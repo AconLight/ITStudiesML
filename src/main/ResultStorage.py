@@ -71,3 +71,6 @@ class ResultStorage:
         print('best by')
         print(self.algorithm_params_keys[self.algorithms[0]][0])
         print(self.get_best_results_by_param(self.databases[0], self.algorithms[0], self.metrics[0], self.algorithm_params_keys[self.algorithms[0]][0]))
+
+    def generate_graphs(self):
+        pass
