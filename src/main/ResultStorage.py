@@ -1,4 +1,4 @@
-
+from src.data_visualization.graphs import parameter_comparison_plot
 
 class ResultStorage:
 
@@ -73,4 +73,11 @@ class ResultStorage:
         print(self.get_best_results_by_param(self.databases[0], self.algorithms[0], self.metrics[0], self.algorithm_params_keys[self.algorithms[0]][0]))
 
     def generate_graphs(self):
+        algorithm_id = self.algorithms[0]
+        database_id = self.databases[0]
+        parameter_id = self.algorithm_params_keys[self.algorithms[0]][0]
+        metric_id = self.metrics[0]
+        parameter_values = self.get_best_results_by_param(self.databases[0], self.algorithms[0], self.metrics[0],
+                                                          self.algorithm_params_keys[self.algorithms[0]][0])
+        parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values)
         pass

@@ -16,18 +16,19 @@ def get_file_path(file_name_ids):
     return folder_path + file_name
 
 
-def parameter_comparison_plot(algorithm_id, database_id, parameter_id, parameter_values):
+def parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values):
     sns.set(style="darkgrid")
 
-    df = pd.DataFrame([], columns=[parameter_id, 'value'])
+    df = pd.DataFrame([], columns=[parameter_id, metric_id])
 
-    for index, key in enumerate(parameter_values):
-        df.loc[index] = [key, parameter_values[key]]
+    for index, parameter_value in enumerate(parameter_values):
+        df.loc[index] = [parameter_value['param_val'], parameter_value['metric_val']]
     print(df)
 
-    sns.lineplot(x=parameter_id, y="value", data=df)
+    sns.lineplot(x=parameter_id, y=metric_id, data=df)
+    print(database_id[5:-4])
 
-    file_path = get_file_path([algorithm_id, database_id, parameter_id])
+    file_path = get_file_path([algorithm_id, database_id[5:-3], parameter_id])
     plt.savefig(file_path, format='svg')
 
 

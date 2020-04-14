@@ -84,6 +84,7 @@ for db in range(len(db_confs)):
                 file.write('\n')
 
 result_storage.show()
+result_storage.generate_graphs()
 file.close()
 file2 = open("best_results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
 for key in best_results:
