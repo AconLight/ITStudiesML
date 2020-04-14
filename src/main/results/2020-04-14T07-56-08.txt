@@ -1,2 +1,0 @@
-{'modelAlgorithm': 'DummyAlgorithmGroup', 'dummyparam': 'gini'}
-database: data/Speed-Dating-Data.csv

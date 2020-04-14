@@ -61,7 +61,7 @@ for db in range(len(db_confs)):
             best_results[db_confs[db] + ", " + str(model_algorithm)] = 0
             file.write(str(my_model_conf) + '\n')
             for e in range(len(evaluation_confs)):
-                print(my_model_conf)
+                # print(my_model_conf)
                 evaluation_conf = parse_add_conf({}, evaluationConfigsPath + sep + evaluation_confs[e])
                 # creating model (dataLoading - modelProcessing - evaluation)
                 dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, db_conf), file=file)
