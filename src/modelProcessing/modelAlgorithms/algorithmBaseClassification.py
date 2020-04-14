@@ -7,9 +7,6 @@ class AlgorithmBase:
         self.Y_train = self.data_map["CLASSIFICATION_COLUMN_train"].values.ravel()
         self.X_train = self.data_map["FEED_COLUMNS_train"]
 
-        print(len(self.Y_train))
-        print("dupa")
-        print(self.X_train)
         self.Y_test = self.data_map["CLASSIFICATION_COLUMN_test"]
         self.X_test = self.data_map["FEED_COLUMNS_test"]
 

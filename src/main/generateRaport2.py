@@ -70,8 +70,6 @@ for db in range(len(db_confs)):
                                                       file=file)
                 # processing
                 data_map = dataLoader.load()
-                print("dupa")
-                print(data_map.keys())
                 process_result = modelProcessor.process(data_map)
                 results = evaluationManager.evaluate(process_result, data_map)
                 if best_results[db_confs[db] + ", " + str(model_algorithm)] < results[0]:

@@ -1,5 +1,4 @@
 feedColumns X^Y^Duration^I131^Cs134^Cs137
-classificationColumn Code
 data_file_path data/CHERNAIR.csv
-test_set_percentage 0.3
-split_type classification
+test_set_percentage 0
+split_type grouping
