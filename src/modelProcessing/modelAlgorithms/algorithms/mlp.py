@@ -1,6 +1,6 @@
 from sklearn.neural_network import MLPClassifier
 
-from src.modelProcessing.modelAlgorithms.algorithmBase import AlgorithmBase
+from src.modelProcessing.modelAlgorithms.algorithmBaseClassification import AlgorithmBase
 
 
 class MLP(AlgorithmBase):

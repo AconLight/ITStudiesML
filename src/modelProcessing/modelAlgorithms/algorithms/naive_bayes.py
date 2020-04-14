@@ -1,6 +1,6 @@
 from sklearn.naive_bayes import GaussianNB
 
-from src.modelProcessing.modelAlgorithms.algorithmBase import AlgorithmBase
+from src.modelProcessing.modelAlgorithms.algorithmBaseClassification import AlgorithmBase
 
 
 class NaiveBayes(AlgorithmBase):

@@ -5,4 +5,4 @@ class AccuracyMetric:
 
     @staticmethod
     def calculate(y_prediction, data_map):
-        return accuracy_score(data_map["Y_test"], y_prediction)
+        return accuracy_score(data_map["CLASSIFICATION_COLUMN_test"], y_prediction)

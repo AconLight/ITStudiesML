@@ -1,6 +1,6 @@
 from pandas import DataFrame
 
-from src.modelProcessing.modelAlgorithms.algorithmBase import AlgorithmBase
+from src.modelProcessing.modelAlgorithms.algorithmBaseClassification import AlgorithmBase
 
 
 class DummyAlgorithm(AlgorithmBase):

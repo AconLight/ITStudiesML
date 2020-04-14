@@ -1,6 +1,6 @@
 from sklearn.ensemble import RandomForestClassifier
 
-from src.modelProcessing.modelAlgorithms.algorithmBase import AlgorithmBase
+from src.modelProcessing.modelAlgorithms.algorithmBaseClassification import AlgorithmBase
 
 
 class RandomForest(AlgorithmBase):

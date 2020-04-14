@@ -1,6 +1,6 @@
 from sklearn.neighbors import KNeighborsClassifier
 
-from src.modelProcessing.modelAlgorithms.algorithmBase import AlgorithmBase
+from src.modelProcessing.modelAlgorithms.algorithmBaseClassification import AlgorithmBase
 
 
 class KNN(AlgorithmBase):

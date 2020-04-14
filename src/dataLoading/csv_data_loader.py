@@ -16,8 +16,6 @@ class CsvDataLoader(DataLoader):
             self.file.write("database: " + self.data_file_path + '\n')
             data = pd.read_csv(self.data_file_path, encoding=encoding)
             sub = list(itertools.chain(*self.splited_data_names.values()))
-            print("sub")
-            print(sub)
             data = data.dropna(subset=sub)
             dataset = Dataset(data)
             return self.preprocess(dataset)

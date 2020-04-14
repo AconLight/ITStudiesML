@@ -1,4 +1,5 @@
 feedColumns gender^order^partner^samerace^age_o^race_o
+classificationColumn match^
 data_file_path data/Speed-Dating-Data.csv
-test_set_percentage 0
-split_type grouping
+test_set_percentage 0.7
+split_type classification

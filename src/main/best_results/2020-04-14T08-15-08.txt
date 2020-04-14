@@ -1,0 +1,1 @@
+speed_dating.csv, KNN - {'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'ball_tree'}0.8100646514066049
