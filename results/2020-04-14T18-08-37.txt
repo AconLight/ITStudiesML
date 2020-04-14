@@ -1,0 +1,2 @@
+{'modelAlgorithm': 'KMeans', 'clusters': '2'}
+database: data/Speed-Dating-Data.csv
