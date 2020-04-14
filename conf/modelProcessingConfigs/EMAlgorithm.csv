@@ -1,0 +1,5 @@
+modelAlgorithm EMAlgorithm
+n_components 10000
+n_init 20000^500^10
+max_iter 1000^50^100
+init_params kmeans^random

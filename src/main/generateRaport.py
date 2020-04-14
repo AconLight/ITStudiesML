@@ -1,5 +1,4 @@
 import sys
-
 import pandas
 
 from src.common.configuration.conf import parse_add_conf, Configuration, ConfigurationType, \
