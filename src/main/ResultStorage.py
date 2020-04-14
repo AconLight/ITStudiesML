@@ -1,5 +1,6 @@
 from src.data_visualization.graphs import parameter_comparison_plot
 
+
 class ResultStorage:
 
     def __init__(self):
@@ -27,8 +28,6 @@ class ResultStorage:
                 self.algorithm_params_keys_values[algorithm][param_key] = {}
             self.algorithm_params_keys_values[algorithm][param_key][params[param_key]] = True
 
-
-
         for result in results:
             if str(result['metric']) not in self.metrics:
                 self.metrics.append(str(result['metric']))
@@ -41,8 +40,6 @@ class ResultStorage:
             else:
                 if self.best_results[keyNoParams]['metric_val'] < result['val']:
                     self.best_results[keyNoParams] = {'params': params, 'metric_val': result['val']}
-
-
 
     def get_best_result(self, database, algorithm, metric):
         return self.best_results[database + " " + algorithm + " " + metric]
@@ -70,14 +67,14 @@ class ResultStorage:
         print(self.best_results)
         print('best by')
         print(self.algorithm_params_keys[self.algorithms[0]][0])
-        print(self.get_best_results_by_param(self.databases[0], self.algorithms[0], self.metrics[0], self.algorithm_params_keys[self.algorithms[0]][0]))
+        print(self.get_best_results_by_param(self.databases[0], self.algorithms[0], self.metrics[0],
+                                             self.algorithm_params_keys[self.algorithms[0]][0]))
 
     def generate_graphs(self):
-        algorithm_id = self.algorithms[0]
-        database_id = self.databases[0]
-        parameter_id = self.algorithm_params_keys[self.algorithms[0]][0]
-        metric_id = self.metrics[0]
-        parameter_values = self.get_best_results_by_param(self.databases[0], self.algorithms[0], self.metrics[0],
-                                                          self.algorithm_params_keys[self.algorithms[0]][0])
-        parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values)
-        pass
+        for algorithm_id in self.algorithms:
+            for database_id in self.databases:
+                for parameter_id in self.algorithm_params_keys[algorithm_id]:
+                    for metric_id in self.metrics:
+                        parameter_values = self.get_best_results_by_param(database_id, algorithm_id, metric_id,
+                                                                          parameter_id)
+                        parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values)
