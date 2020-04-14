@@ -7,3 +7,4 @@ from src.modelProcessing.modelAlgorithms.algorithms.knn import KNN
 from src.modelProcessing.modelAlgorithms.algorithms.random_forest import RandomForest
 
 from src.modelProcessing.modelAlgorithms.algorithms.dummyAlgorithmGroup import DummyAlgorithmGroup
+from src.modelProcessing.modelAlgorithms.algorithms.kmeans import KMeans
