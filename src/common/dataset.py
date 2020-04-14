@@ -2,8 +2,9 @@ class Dataset():
     def __init__(self, dataframe) -> None:
         super().__init__()
         self.data = dataframe
-        self.target_columns = []
-        self.data_columns = []
+        # self.target_columns = []
+        # self.data_columns = []
+        self.splited_data = {}
 
     # def get_string_columns(self):
     #     # (df.applymap(type) == str).all(0)
@@ -18,6 +19,10 @@ class Dataset():
     def get_columns(self, column_name_list):
         self.check_if_columns_are_in_data(column_name_list)
         return self.data.filter(items=column_name_list)
+
+    def add_splited_data(self, column_name_list, splited_data_element_name):
+        self.check_if_columns_are_in_data(column_name_list)
+        self.splited_data[splited_data_element_name] = column_name_list
 
     def set_target_columns(self, column_name_list):
         self.check_if_columns_are_in_data(column_name_list)

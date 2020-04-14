@@ -71,11 +71,22 @@ class ConfigurationType(enum.Enum):
    CLASSIFICATION = "Classification"
    EVALUATION = "Evaluation"
 
-class DataLoadingConfigurationEntries(enum.Enum):
+class DataLoadingGroupingConfigurationEntries(enum.Enum):
+    FEED_COLUMNS = "feedColumns"
+
+class DataLoadingClassificationConfigurationEntries(enum.Enum):
     FEED_COLUMNS = "feedColumns"
     CLASSIFICATION_COLUMN = 'classificationColumn'
-    DATA_FILEPATH = 'data_file_path'
     TEST_SET_PERCENTAGE = 'test_set_percentage'
+
+class DataLoadingConfigurationEntries(enum.Enum):
+    DATA_FILEPATH = 'data_file_path'
+    SPLIT_TYPE = 'split_type'
+
+process_type_configurations = {
+    "classification": DataLoadingClassificationConfigurationEntries,
+    "grouping": DataLoadingGroupingConfigurationEntries,
+}
 
 class EvaluationConfigurationEntries(enum.Enum):
     METRICS = 'evaluationMetrics'

@@ -5,6 +5,10 @@ import random
 class TrainTestSplitter():
     @staticmethod
     def split(dataset, test_set_percentage):
+        if test_set_percentage is None:
+            # TODO
+            # dataset.splited_data
+            return
         data_columns = dataset.get_data_columns()
         target_columns = dataset.get_target_columns()
 

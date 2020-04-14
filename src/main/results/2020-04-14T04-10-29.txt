@@ -1,0 +1,5 @@
+{'modelAlgorithm': 'RandomForest', 'n_estimators': '50', 'max_depth': '50', 'max_leaf_nodes': '50'}
+database: data/Speed-Dating-Data.csv
+model algorithm: RandomForest
+AccuracyMetric = 0.8357843137254902
+

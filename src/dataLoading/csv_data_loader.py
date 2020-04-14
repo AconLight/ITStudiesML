@@ -15,14 +15,10 @@ class CsvDataLoader(DataLoader):
             data = pd.read_csv(self.data_file_path, encoding=encoding)
             data = data.dropna(subset=self.feedColumns + [self.classificationColumn])
             dataset = Dataset(data)
-            dataset.set_data_columns(self.feedColumns)
-            dataset.set_target_columns([self.classificationColumn])
-            return dataset
+            return self.preprocess(dataset)
         except FileNotFoundError:
             raise FileNotFoundError('Dataset file has not been found')
         except Exception as e:
             raise type(e)('Loading dataset with different encoding (utf-8, latin, ...) may help!')
-
-
 
 
