@@ -12,7 +12,7 @@ class DataLoader:
             print(process_type_configuration_name)
             print(process_type_configuration.value)
             print(configuration.get_entry(process_type_configuration.value))
-            self.splited_data_names[process_type_configuration] = configuration.get_entry(process_type_configuration.value)
+            self.splited_data_names[process_type_configuration_name] = configuration.get_entry(process_type_configuration.value)
 
     def load(self, encoding="ISO-8859-1"):
         pass

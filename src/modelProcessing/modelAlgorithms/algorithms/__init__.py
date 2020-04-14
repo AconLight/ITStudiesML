@@ -5,3 +5,5 @@ from src.modelProcessing.modelAlgorithms.algorithms.decisionTree import Decision
 from src.modelProcessing.modelAlgorithms.algorithms.mlp import MLP
 from src.modelProcessing.modelAlgorithms.algorithms.knn import KNN
 from src.modelProcessing.modelAlgorithms.algorithms.random_forest import RandomForest
+
+from src.modelProcessing.modelAlgorithms.algorithms.dummyAlgorithmGroup import DummyAlgorithmGroup

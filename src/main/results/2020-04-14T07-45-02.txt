@@ -1,0 +1,10 @@
+{'modelAlgorithm': 'DummyAlgorithmGroup', 'dummyparam': 'gini'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DummyAlgorithmGroup
+DummyGroupMetric = 1
+
+{'modelAlgorithm': 'DummyAlgorithmGroup', 'dummyparam': 'entropy'}
+database: data/Speed-Dating-Data.csv
+model algorithm: DummyAlgorithmGroup
+DummyGroupMetric = 1
+

@@ -72,8 +72,8 @@ for db in range(len(db_confs)):
                 data_map = dataLoader.load()
                 print("dupa")
                 print(data_map.keys())
-                Y_pred = modelProcessor.process(data_map)
-                results = evaluationManager.evaluate(Y_pred, None)
+                process_result = modelProcessor.process(data_map)
+                results = evaluationManager.evaluate(process_result, data_map)
                 if best_results[db_confs[db] + ", " + str(model_algorithm)] < results[0]:
                     best_results[db_confs[db] + ", " + str(model_algorithm)] = str(my_model_conf) + str(results[0])
                 file.write('\n')
