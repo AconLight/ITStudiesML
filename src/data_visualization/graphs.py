@@ -26,9 +26,8 @@ def parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id
     print(df)
 
     sns.lineplot(x=parameter_id, y=metric_id, data=df)
-    print(database_id[5:-4])
 
-    file_path = get_file_path([algorithm_id, database_id[5:-3], parameter_id])
+    file_path = get_file_path([algorithm_id, database_id[5:-4], metric_id,  parameter_id])
     plt.savefig(file_path, format='svg')
 
 
