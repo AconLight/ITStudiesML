@@ -1,5 +1,5 @@
 from src.modelProcessing.modelAlgorithms.algorithmBaseGroup import AlgorithmBaseGroup
-
+import numpy as np
 
 class DummyAlgorithmGroup(AlgorithmBaseGroup):
     def __init__(self, conf):
@@ -11,4 +11,4 @@ class DummyAlgorithmGroup(AlgorithmBaseGroup):
 
     def predict(self):
         print("DummyAlgorithm predict")
-        return self.X
+        return np.array(np.random.randn(self.X.shape[0],1)*10, dtype=np.int32)

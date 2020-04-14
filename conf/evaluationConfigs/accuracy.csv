@@ -1,1 +1,1 @@
-evaluationMetrics ClusterQualityMetric^
+evaluationMetrics CalinskiHarabaszMetric^
