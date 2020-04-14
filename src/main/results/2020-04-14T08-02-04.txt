@@ -1,0 +1,3 @@
+{'modelAlgorithm': 'KNN', 'n_neighbors': '5', 'algorithm': 'auto'}
+database: data/Speed-Dating-Data.csv
+model algorithm: KNN

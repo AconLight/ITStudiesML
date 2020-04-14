@@ -1,1 +1,1 @@
-model_confs RandomForest.csv^DecisionTree.csv^KNN.csv^MLP.csv^NaiveBayes.csv^SVM.csv
+model_confs KNN.csv^
