@@ -1,3 +1,0 @@
-{'modelAlgorithm': 'DummyAlgorithmGroup', 'criterion': 'gini', 'splitter': 'best', 'max_depth': '2', 'min_samples_split': '2', 'min_samples_leaf': '2'}
-database: data/Speed-Dating-Data.csv
-model algorithm: DummyAlgorithmGroup
