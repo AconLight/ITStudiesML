@@ -1,4 +1,4 @@
-feedColumns age^Medu^Fedu^traveltime^studytime^failures^famrel^freetime^goout^Dalc^Walc^health^absences
+feedColumns age^traveltime^studytime^failures
 data_file_path data/Student-Alcohol-Consumption.csv
 test_set_percentage 0
 split_type grouping

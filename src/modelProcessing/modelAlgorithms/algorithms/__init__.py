@@ -8,3 +8,4 @@ from src.modelProcessing.modelAlgorithms.algorithms.random_forest import RandomF
 
 from src.modelProcessing.modelAlgorithms.algorithms.dummyAlgorithmGroup import DummyAlgorithmGroup
 from src.modelProcessing.modelAlgorithms.algorithms.kmeans import KMeans
+from src.modelProcessing.modelAlgorithms.algorithms.dbscan import DBSCAN
