@@ -37,9 +37,9 @@ class ResultStorage:
 
             keyNoParams = database + " " + algorithm + " " + str(result['metric'])
             if keyNoParams not in self.best_results:
-                self.best_results[keyNoParams] = {'params': params, 'val': result['val']}
+                self.best_results[keyNoParams] = {'params': params, 'metric_val': result['val']}
             else:
-                if self.best_results[keyNoParams]['val'] < result['val']:
+                if self.best_results[keyNoParams]['metric_val'] < result['val']:
                     self.best_results[keyNoParams] = {'params': params, 'metric_val': result['val']}
 
 
