@@ -1,4 +1,4 @@
-from src.data_visualization.graphs import parameter_comparison_plot
+from src.data_visualization.graphs import parameter_comparison_plot, algorithm_comparison_plot
 
 
 class ResultStorage:
@@ -71,10 +71,15 @@ class ResultStorage:
                                              self.algorithm_params_keys[self.algorithms[0]][0]))
 
     def generate_graphs(self):
-        for algorithm_id in self.algorithms:
+        for metric_id in self.metrics:
             for database_id in self.databases:
-                for parameter_id in self.algorithm_params_keys[algorithm_id]:
-                    for metric_id in self.metrics:
+                best_results = []
+
+                for algorithm_id in self.algorithms:
+                    val = self.get_best_result(database_id, algorithm_id, metric_id)['metric_val']
+                    best_results.append([algorithm_id, val])
+                    for parameter_id in self.algorithm_params_keys[algorithm_id]:
                         parameter_values = self.get_best_results_by_param(database_id, algorithm_id, metric_id,
                                                                           parameter_id)
                         parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values)
+                algorithm_comparison_plot(database_id, metric_id, best_results)
