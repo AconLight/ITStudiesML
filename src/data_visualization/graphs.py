@@ -30,7 +30,6 @@ def parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id
 
 
 def algorithm_comparison_plot(database_id, metric_id, best_results):
-    print(best_results)
     df = pd.DataFrame([], columns=['algorithms', metric_id])
     for index, best_result in enumerate(best_results):
         df.loc[index] = [best_result[0], best_result[1]]
