@@ -1,3 +1,5 @@
+import itertools
+
 from src.common.dataset import Dataset
 from src.dataLoading.dataLoader import DataLoader
 from src.dataLoading.preprocessing.train_test_split import TrainTestSplitter
@@ -13,7 +15,10 @@ class CsvDataLoader(DataLoader):
         try:
             self.file.write("database: " + self.data_file_path + '\n')
             data = pd.read_csv(self.data_file_path, encoding=encoding)
-            data = data.dropna(subset=self.feedColumns + [self.classificationColumn])
+            sub = list(itertools.chain(*self.splited_data_names.values()))
+            print("sub")
+            print(sub)
+            data = data.dropna(subset=sub)
             dataset = Dataset(data)
             return self.preprocess(dataset)
         except FileNotFoundError:

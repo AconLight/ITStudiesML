@@ -20,7 +20,7 @@ class Dataset():
         self.check_if_columns_are_in_data(column_name_list)
         return self.data.filter(items=column_name_list)
 
-    def add_splited_data(self, column_name_list, splited_data_element_name):
+    def add_splited_data(self, splited_data_element_name, column_name_list):
         self.check_if_columns_are_in_data(column_name_list)
         self.splited_data[splited_data_element_name] = column_name_list
 
@@ -44,6 +44,9 @@ class Dataset():
         illegal_columns = set(column_name_list).intersection(self.target_columns)
         if len(illegal_columns) > 0:
             raise ValueError("Trying to set columns that are marked as target ones: " + ','.join(illegal_columns))
+
+    def get_splited_data_columns(self, splited_data_element_name):
+        return self.splited_data[splited_data_element_name]
 
     def get_data_columns(self):
         return self.data_columns

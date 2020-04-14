@@ -10,6 +10,7 @@ class DataLoader:
             process_type_configuration_name = str(process_type_configuration).split(".")[1]
             print(process_type_configuration_name)
             print(process_type_configuration.value)
+            print(configuration.get_entry(process_type_configuration.value))
             self.splited_data_names[process_type_configuration] = configuration.get_entry(process_type_configuration.value)
 
     def load(self, encoding="ISO-8859-1"):
@@ -17,7 +18,7 @@ class DataLoader:
 
     def preprocess(self, dataset):
         for splited_data_names_key in self.splited_data_names.keys():
-            dataset.add_splited_data(self.splited_data_names[splited_data_names_key])
+            dataset.add_splited_data(splited_data_names_key, self.splited_data_names[splited_data_names_key])
 
-        splited_data = TrainTestSplitter.split(dataset, DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value)
+        splited_data = TrainTestSplitter.split(dataset, float(DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value))
         return splited_data

@@ -77,11 +77,11 @@ class DataLoadingGroupingConfigurationEntries(enum.Enum):
 class DataLoadingClassificationConfigurationEntries(enum.Enum):
     FEED_COLUMNS = "feedColumns"
     CLASSIFICATION_COLUMN = 'classificationColumn'
-    TEST_SET_PERCENTAGE = 'test_set_percentage'
 
 class DataLoadingConfigurationEntries(enum.Enum):
     DATA_FILEPATH = 'data_file_path'
     SPLIT_TYPE = 'split_type'
+    TEST_SET_PERCENTAGE = 'test_set_percentage'
 
 process_type_configurations = {
     "classification": DataLoadingClassificationConfigurationEntries,
