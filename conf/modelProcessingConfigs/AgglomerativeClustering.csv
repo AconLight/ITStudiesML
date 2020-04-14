@@ -1,4 +1,4 @@
 modelAlgorithm AgglomerativeClustering
 n_clusters 2^4^10
 affinity euclidean^l1^manhattan^cosine
-linkage ward^complet^eaverage^single
+linkage complete^average^single
