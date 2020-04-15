@@ -42,16 +42,17 @@ class ResultStorage:
                     self.best_results[keyNoParams] = {'params': params, 'metric_val': result['val']}
 
     def get_best_result(self, database, algorithm, metric):
-        return self.best_results[database + " " + algorithm + " " + metric]
+        return self.best_results[database + " " + algorithm + " " + metric].copy()
 
     def get_best_results_by_param(self, database, algorithm, metric, param):
-        local_best = self.best_results[database + " " + algorithm + " " + metric]
-        local_best_params = local_best['params']
+        local_best = self.best_results[database + " " + algorithm + " " + metric].copy()
+        local_best_params = local_best['params'].copy()
         results = []
         for value in self.algorithm_params_keys_values[algorithm][param].keys():
             local_best_params[param] = value
+            print(local_best_params)
             key = database + " " + algorithm + " " + str(local_best_params) + " " + metric
-            results.append({'param_val': value, 'metric_val': self.all_results[key]})
+            results.append({'param_val': value, 'metric_val': self.all_results[key].copy()})
         return results
 
     def show(self):
@@ -62,13 +63,18 @@ class ResultStorage:
         print(self.algorithm_params_keys_values)
         print(self.metrics)
         print('all')
-        print(self.all_results)
+        for res in self.all_results:
+            print(res)
+            print(self.all_results[res])
         print('best')
         print(self.best_results)
         print('best by')
         print(self.algorithm_params_keys[self.algorithms[0]][0])
         print(self.get_best_results_by_param(self.databases[0], self.algorithms[0], self.metrics[0],
                                              self.algorithm_params_keys[self.algorithms[0]][0]))
+        print(self.algorithm_params_keys[self.algorithms[0]][1])
+        print(self.get_best_results_by_param(self.databases[0], self.algorithms[0], self.metrics[0],
+                                             self.algorithm_params_keys[self.algorithms[0]][1]))
 
     def generate_graphs(self):
         for metric_id in self.metrics:
