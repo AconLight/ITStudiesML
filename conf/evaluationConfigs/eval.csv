@@ -1,1 +1,1 @@
-evaluationMetrics AccuracyMetric^PrecisionMetric^RecallMetric^SpecificityMetric
+evaluationMetrics CalinskiHarabaszMetric^

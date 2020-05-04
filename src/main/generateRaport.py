@@ -1,4 +1,5 @@
 import sys
+
 import pandas
 
 from src.common.configuration.conf import parse_add_conf, Configuration, ConfigurationType, \
@@ -6,6 +7,7 @@ from src.common.configuration.conf import parse_add_conf, Configuration, Configu
 from src.dataLoading.csv_data_loader import CsvDataLoader
 from src.dataLoading.preprocessing.train_test_split import TrainTestSplitter
 from src.evaluation.evaluationManager import EvaluationManager
+from src.main.ResultStorage import ResultStorage
 from src.modelProcessing.modelProcessor import ModelProcessor
 from os.path import sep
 from itertools import product
@@ -16,9 +18,9 @@ dataLoadingConfigsPath = "dataLoadingConfigs"
 modelProcessingConfigsPath = "modelProcessingConfigs"
 evaluationConfigsPath = "evaluationConfigs"
 
-defaultDataLoadingConfigsPath = "defaultConfig" + sep + "dataLoading.csv"
-defaultModelProcessingConfigsPath = "defaultConfig" + sep + "modelProcessing.csv"
-defaultEvaluationConfigsPath = "defaultConfig" + sep + "evaluation.csv"
+defaultDataLoadingConfigsPath = "defaultConfig" + sep + "dataLoading_2.csv"
+defaultModelProcessingConfigsPath = "defaultConfig" + sep + "modelProcessing_2.csv"
+defaultEvaluationConfigsPath = "defaultConfig" + sep + "evaluation_2.csv"
 
 dataLoadingConfs = parse_add_conf({}, defaultDataLoadingConfigsPath)
 modelProcessingConfs = parse_add_conf({}, defaultModelProcessingConfigsPath)
@@ -30,6 +32,8 @@ evaluation_confs = evaluationConfs['evaluation_confs']
 
 best_results = {}
 
+result_storage = ResultStorage()
+
 print()
 
 file = open("results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
@@ -39,7 +43,7 @@ for db in range(len(db_confs)):
     for m in range(len(model_confs)):
         model_conf = parse_add_conf({}, modelProcessingConfigsPath + sep + model_confs[m])
         model_algorithm = model_conf.pop('modelAlgorithm', None)
-        # print(model_conf)
+        print(model_conf)
         model_params = []
         model_params_keys = []
         for key in model_conf:
@@ -47,7 +51,7 @@ for db in range(len(db_confs)):
             model_params_keys.append(key)
 
         model_params_product = product(*model_params)
-        # print(list(model_params_product))
+        # print(model_params)
 
         my_model_conf = {'modelAlgorithm': model_algorithm}
 
@@ -60,24 +64,28 @@ for db in range(len(db_confs)):
             best_results[db_confs[db] + ", " + str(model_algorithm)] = 0
             file.write(str(my_model_conf) + '\n')
             for e in range(len(evaluation_confs)):
-                # print(my_model_conf)
                 evaluation_conf = parse_add_conf({}, evaluationConfigsPath + sep + evaluation_confs[e])
+                # print(my_model_conf)
+                # print(db_conf)
+                # print(evaluation_conf)
+                # print(model_params)
                 # creating model (dataLoading - modelProcessing - evaluation)
                 dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, db_conf), file=file)
                 modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, my_model_conf), file=file)
                 evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION, evaluation_conf),
                                                       file=file)
                 # processing
-                dataset = dataLoader.load()
-                X_train, Y_train, X_test, Y_test = TrainTestSplitter.split(dataset, float(
-                    db_conf[DataLoadingConfigurationEntries.TEST_SET_PERCENTAGE.value]))
-                Y_pred = modelProcessor.process(X_train, X_test, Y_train)
-                results = evaluationManager.evaluate(Y_pred, Y_test)
-                if best_results[db_confs[db] + ", " + str(model_algorithm)] < results[0]:
-                    best_results[db_confs[db] + ", " + str(model_algorithm)] = str(my_model_conf) + str(results[0])
+                data_map = dataLoader.load()
+                print(data_map)
+                process_result = modelProcessor.process(data_map)
+                results = evaluationManager.evaluate(process_result, data_map)
+                result_storage.add_result(db_conf['data_file_path'], my_model_conf.copy(), results)
+                # if best_results[db_confs[db] + ", " + str(model_algorithm)] < results[0]:
+                #     best_results[db_confs[db] + ", " + str(model_algorithm)] = str(my_model_conf) + str(results[0])
                 file.write('\n')
 
-
+# result_storage.show()
+result_storage.generate_graphs()
 file.close()
 file2 = open("best_results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
 for key in best_results:

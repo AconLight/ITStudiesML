@@ -1,0 +1,5 @@
+feedColumns traveltime^studytime^failures
+classificationColumn age
+data_file_path data/Student-Alcohol-Consumption.csv
+test_set_percentage 0.3
+split_type classification
