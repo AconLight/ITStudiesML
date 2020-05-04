@@ -76,7 +76,7 @@ for db in range(len(db_confs)):
                                                       file=file)
                 # processing
                 data_map = dataLoader.load()
-                print(data_map)
+                # print(data_map)
                 process_result = modelProcessor.process(data_map)
                 results = evaluationManager.evaluate(process_result, data_map)
                 result_storage.add_result(db_conf['data_file_path'], my_model_conf.copy(), results)
