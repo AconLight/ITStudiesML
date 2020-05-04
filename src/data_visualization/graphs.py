@@ -44,6 +44,7 @@ def algorithm_comparison_plot(database_id, metric_id, best_results):
 
 def parameter_plot(database_id, metric_id, algorithm_id, parameter_id, column_1_id, column_2_id, data, results):
     df = pd.DataFrame([], columns=[column_1_id, column_2_id, 'classes'])
+
     for index, result in enumerate(results):
         df.loc[index] = [data[column_1_id][index], data[column_2_id][index], result]
 
