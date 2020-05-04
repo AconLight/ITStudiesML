@@ -1,6 +1,6 @@
 
 
-class DummyMetric:
+class DummyMetric: 
     def __init__(self):
         pass
 
