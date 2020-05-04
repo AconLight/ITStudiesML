@@ -5,4 +5,8 @@ class PrecisionMetric:
 
     @staticmethod
     def calculate(y_prediction, data_map):
-        return precision_score(data_map['CLASSIFICATION_COLUMN_test'], y_prediction, average='micro')
+        # print(data_map['CLASSIFICATION_COLUMN_test'].values.flatten())
+        # print(y_prediction.values.flatten())
+        score = precision_score(data_map['CLASSIFICATION_COLUMN_test'].values.flatten(), y_prediction.values.flatten(), average='micro')
+        # print('precision:', score)
+        return score
