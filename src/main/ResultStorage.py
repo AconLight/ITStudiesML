@@ -36,13 +36,14 @@ class ResultStorage:
 
             keyNoParams = database + " " + algorithm + " " + str(result['metric'])
             if keyNoParams not in self.best_results:
-                self.best_results[keyNoParams] = {'params': params, 'metric_val': result['val'], 'data': result['data']}
+                self.best_results[keyNoParams] = {'params': params, 'metric_val': result['val'], 'data': result['data'], 'process_result': result['process_result']}
             else:
                 if self.best_results[keyNoParams]['metric_val'] < result['val']:
-                    self.best_results[keyNoParams] = {'params': params, 'metric_val': result['val'], 'data': result['data']}
+                    self.best_results[keyNoParams] = {'params': params, 'metric_val': result['val'], 'data': result['data'], 'process_result': result['process_result']}
 
     def get_best_result(self, database, algorithm, metric):
         print(self.best_results[database + " " + algorithm + " " + metric]['data'])
+        print(self.best_results[database + " " + algorithm + " " + metric]['process_result'])
         return self.best_results[database + " " + algorithm + " " + metric].copy()
 
     def get_best_results_by_param(self, database, algorithm, metric, param):
@@ -53,7 +54,7 @@ class ResultStorage:
             local_best_params[param] = value
             print(local_best_params)
             key = database + " " + algorithm + " " + str(local_best_params) + " " + metric
-            results.append({'param_val': value, 'metric_val': self.all_results[key]['val'], 'data': self.all_results[key]['data']})
+            results.append({'param_val': value, 'metric_val': self.all_results[key]['val'], 'process_result': self.all_results[key]['process_result'], 'data': self.all_results[key]['data']})
         return results
 
     def show(self):
