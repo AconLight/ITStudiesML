@@ -1,4 +1,5 @@
-feedColumns gender^partner^age_o^race_o
+feedColumns gender^partner^race_o
+classificationColumn age_o
 data_file_path data/Speed-Dating-Data.csv
-test_set_percentage 0
-split_type grouping
+test_set_percentage 0.3
+split_type classification
