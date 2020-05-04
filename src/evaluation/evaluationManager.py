@@ -16,7 +16,7 @@ class EvaluationManager:
     def evaluate(self, process_result, data_map):
         results = []
         for m in range(len(self.metrics)):
-            result = {'metric':  self.metric_names[m], 'val': self.metrics[m].calculate(process_result, data_map)}
+            result = {'metric':  self.metric_names[m], 'val': self.metrics[m].calculate(process_result, data_map), 'data': data_map}
             result_str = self.metric_names[m] + " = " + str(result)
             self.file.write(result_str + '\n')
             results.append(result)
