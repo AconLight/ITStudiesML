@@ -18,9 +18,9 @@ dataLoadingConfigsPath = "dataLoadingConfigs"
 modelProcessingConfigsPath = "modelProcessingConfigs"
 evaluationConfigsPath = "evaluationConfigs"
 
-defaultDataLoadingConfigsPath = "defaultConfig" + sep + "dataLoading.csv"
-defaultModelProcessingConfigsPath = "defaultConfig" + sep + "modelProcessing.csv"
-defaultEvaluationConfigsPath = "defaultConfig" + sep + "evaluation.csv"
+defaultDataLoadingConfigsPath = "defaultConfig" + sep + "dataLoading_2.csv"
+defaultModelProcessingConfigsPath = "defaultConfig" + sep + "modelProcessing_2.csv"
+defaultEvaluationConfigsPath = "defaultConfig" + sep + "evaluation_2.csv"
 
 dataLoadingConfs = parse_add_conf({}, defaultDataLoadingConfigsPath)
 modelProcessingConfs = parse_add_conf({}, defaultModelProcessingConfigsPath)
