@@ -50,14 +50,14 @@ def algorithm_comparison_plot(database_id, metric_id, best_results):
     pass
 
 
-def parameter_plot(database_id, parameter_1_id, parameter_2_id, data, results):
-    df = pd.DataFrame([], columns=[parameter_1_id, parameter_2_id, 'classes'])
+def parameter_plot(database_id, column_1_id, column_2_id, data, results):
+    df = pd.DataFrame([], columns=[column_1_id, column_2_id, 'classes'])
     for index, result in enumerate(results):
-        df.loc[index] = [data[parameter_1_id][index], data[parameter_2_id][index], result]
+        df.loc[index] = [data[column_1_id][index], data[column_2_id][index], result]
 
-    sns.scatterplot(x=parameter_1_id, y=parameter_2_id, hue='classes', data=df)
+    sns.scatterplot(x=column_1_id, y=column_2_id, hue='classes', data=df)
 
-    file_path = get_file_path(['classes', database_id[5:-4], parameter_1_id, parameter_2_id])
+    file_path = get_file_path(['classes', database_id[5:-4], column_1_id, column_2_id])
     plt.savefig(file_path, format='png')
     plt.cla()
     plt.clf()
