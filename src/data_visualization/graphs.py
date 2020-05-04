@@ -52,7 +52,7 @@ def parameter_plot(database_id, metric_id, algorithm_id, parameter_id, column_1_
 
     file_path = get_file_path(
         ['classes', database_id[5:-4], metric_id, algorithm_id, parameter_id, column_1_id, column_2_id])
-    plt.title("Plot {} {} {} {}".format(database_id[5:-4], metric_id, algorithm_id, parameter_id))
+    plt.title("Plot: {} \nMetric: {}\nAlgorithm: {}; Parameter: {}".format(database_id[5:-4], metric_id, algorithm_id, parameter_id))
     plt.savefig(file_path, format='png')
     plt.cla()
     plt.clf()
