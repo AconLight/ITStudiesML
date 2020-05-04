@@ -83,7 +83,7 @@ for db in range(len(db_confs)):
                 #     best_results[db_confs[db] + ", " + str(model_algorithm)] = str(my_model_conf) + str(results[0])
                 file.write('\n')
 
-result_storage.show()
+# result_storage.show()
 result_storage.generate_graphs()
 file.close()
 file2 = open("best_results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")

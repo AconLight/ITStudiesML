@@ -28,14 +28,6 @@ def parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id
     plt.cla()
     plt.clf()
 
-
-def groups_dist_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values):
-    # for columns
-    for index, parameter_value in enumerate(parameter_values):
-        print(parameter_value['data'])
-        print(parameter_value['process_result'])
-
-
 def algorithm_comparison_plot(database_id, metric_id, best_results):
     df = pd.DataFrame([], columns=['algorithms', metric_id])
     for index, best_result in enumerate(best_results):
@@ -52,6 +44,7 @@ def algorithm_comparison_plot(database_id, metric_id, best_results):
 
 def parameter_plot(database_id, metric_id, algorithm_id, parameter_id, column_1_id, column_2_id, data, results):
     df = pd.DataFrame([], columns=[column_1_id, column_2_id, 'classes'])
+
     for index, result in enumerate(results):
         df.loc[index] = [data[column_1_id][index], data[column_2_id][index], result]
 
@@ -64,3 +57,20 @@ def parameter_plot(database_id, metric_id, algorithm_id, parameter_id, column_1_
     plt.cla()
     plt.clf()
     pass
+
+
+
+
+
+def groups_dist_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values):
+    print("groups plot")
+    for index, parameter_value in enumerate(parameter_values):
+        data = parameter_value['data']["FEED_COLUMNS"]
+        results = parameter_value['process_result']
+        cols = parameter_value['data']["FEED_COLUMNS"].keys()
+        for colId in range(int(len(cols) / 2)):
+            col1_id = cols[colId*2]
+            col2_id = cols[colId*2+1]
+            print(col2_id)
+            print(col1_id)
+            parameter_plot(database_id, metric_id, algorithm_id, parameter_id, col1_id, col2_id, data, results)
