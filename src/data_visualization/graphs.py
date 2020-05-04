@@ -28,6 +28,13 @@ def parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id
     plt.cla()
     plt.clf()
 
+def groups_dist_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values):
+    # for columns
+    for index, parameter_value in enumerate(parameter_values):
+        print(parameter_value['data'])
+        print(parameter_value['process_result'])
+
+
 
 def algorithm_comparison_plot(database_id, metric_id, best_results):
     df = pd.DataFrame([], columns=['algorithms', metric_id])
