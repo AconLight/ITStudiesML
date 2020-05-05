@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def plot_learning_curve(data):
-    plt.title('NAZWA ALGORYTMU')
+def plot_learning_curve(data, algorithm_id, database_id):
+    plt.title('Algorithm: {}\nDatabase: {}'.format(algorithm_id, database_id))
 
     plt.ylim(0, 1.01)
     plt.xlabel("Training examples")
