@@ -1,5 +1,5 @@
 modelAlgorithm MLP
-alpha 1e-5^1e-4^1e-3
-hidden_layer_count 1^2^3
-hidden_layer_neurons 10^15^20
-solver adam^lbfgs^sgd
+alpha 1e-3^
+hidden_layer_count 3^
+hidden_layer_neurons 20^
+solver sgd^

@@ -1,6 +1,6 @@
 modelAlgorithm DecisionTree
-criterion gini^entropy
-splitter best^random
-max_depth 2^3^4
-min_samples_split 2^3^4
-min_samples_leaf 2^3^4
+criterion entropy^
+splitter random^
+max_depth 4^
+min_samples_split 4^
+min_samples_leaf 4^

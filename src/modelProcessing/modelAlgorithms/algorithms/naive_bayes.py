@@ -2,9 +2,7 @@ from sklearn.naive_bayes import GaussianNB
 
 import numpy as np
 from sklearn.model_selection import learning_curve
-
 from sklearn.model_selection import ShuffleSplit
-from src.data_visualization.effectiveness import plot_learning_curve
 
 from src.modelProcessing.modelAlgorithms.algorithmBaseClassification import AlgorithmBase
 
