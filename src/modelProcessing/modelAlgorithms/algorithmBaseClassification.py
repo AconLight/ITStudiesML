@@ -10,6 +10,8 @@ class AlgorithmBase:
         self.Y_test = self.data_map["CLASSIFICATION_COLUMN_test"]
         self.X_test = self.data_map["FEED_COLUMNS_test"]
 
+        self.learning_data = None
+
     def train(self):
         pass
 

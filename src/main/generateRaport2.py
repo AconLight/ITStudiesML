@@ -71,7 +71,7 @@ for db in range(len(db_confs)):
                 # print(model_params)
                 # creating model (dataLoading - modelProcessing - evaluation)
                 dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, db_conf), file=file)
-                modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, my_model_conf), file=file)
+                modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, my_model_conf), file=file, db_conf=Configuration(ConfigurationType.DATALOADING, db_conf))
                 evaluationManager = EvaluationManager(Configuration(ConfigurationType.EVALUATION, evaluation_conf),
                                                       file=file)
                 # processing
