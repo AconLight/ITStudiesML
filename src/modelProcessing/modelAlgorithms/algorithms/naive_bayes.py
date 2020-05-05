@@ -21,7 +21,6 @@ class NaiveBayes(AlgorithmBase):
                                             cv=ShuffleSplit(n_splits=100, test_size=0.2, random_state=0), n_jobs=4,
                                             train_sizes=np.linspace(.1, 1.0, 5),
                                             return_times=True)
-        plot_learning_curve(self.learning_data)
 
     def predict(self):
         return self.classifier.predict(self.X_test)
