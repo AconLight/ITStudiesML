@@ -7,6 +7,7 @@ from src.common.configuration.conf import parse_add_conf, Configuration, Configu
 from src.dataLoading.csv_data_loader import CsvDataLoader
 from src.dataLoading.preprocessing.train_test_split import TrainTestSplitter
 from src.evaluation.evaluationManager import EvaluationManager
+from src.evaluation.evaluationMetric.metrics import RocCurve
 from src.main.ResultStorage import ResultStorage
 from src.modelProcessing.modelProcessor import ModelProcessor
 from os.path import sep
@@ -29,8 +30,6 @@ evaluationConfs = parse_add_conf({}, defaultEvaluationConfigsPath)
 db_confs = dataLoadingConfs['db_confs']
 model_confs = modelProcessingConfs['model_confs']
 evaluation_confs = evaluationConfs['evaluation_confs']
-
-best_results = {}
 
 result_storage = ResultStorage()
 
@@ -61,7 +60,6 @@ for db in range(len(db_confs)):
             for k in range(len(model_params_keys)):
                 my_model_conf[model_params_keys[k]] = m[k]
 
-            best_results[db_confs[db] + ", " + str(model_algorithm)] = 0
             file.write(str(my_model_conf) + '\n')
             for e in range(len(evaluation_confs)):
                 evaluation_conf = parse_add_conf({}, evaluationConfigsPath + sep + evaluation_confs[e])
@@ -84,11 +82,30 @@ for db in range(len(db_confs)):
                 #     best_results[db_confs[db] + ", " + str(model_algorithm)] = str(my_model_conf) + str(results[0])
                 file.write('\n')
 
+        print()
+
 # result_storage.show()
 result_storage.generate_graphs()
+
+#Generate ROC Curves
+if 'RocCurve' in evaluation_conf['evaluationMetrics']:
+    algorithm_points_map = {}
+
+    for key in result_storage.best_results.keys():
+        dataset, algorithm, metric = key.split()
+        params = result_storage.best_results[key]['params']
+        if metric == 'RocCurve':
+            for class_id in result_storage.best_results[key]['metric_val'].keys():
+                if (dataset, algorithm) not in algorithm_points_map:
+                    algorithm_points_map[(dataset, algorithm,class_id, str(params))]= result_storage.best_results[key]['metric_val'][class_id]
+
+
+    RocCurve.visualize(algorithm_points_map)
+
+
 file.close()
 file2 = open("best_results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
-for key in best_results:
-    file2.write(key + " - " + str(best_results[key]) + "\n")
+for key in result_storage.best_results:
+    file2.write(key + " - " + str(result_storage.best_results[key]) + "\n")
 
 file2.close()

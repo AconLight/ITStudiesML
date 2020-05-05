@@ -91,4 +91,7 @@ class ResultStorage:
                     #                                                       parameter_id)
                     #     parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values)
                     #     groups_dist_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values)
-                algorithm_comparison_plot(database_id, metric_id, best_results)
+                try:
+                    algorithm_comparison_plot(database_id, metric_id, best_results)
+                except:
+                    print("Not generating plot for metric: " + str(metric_id))

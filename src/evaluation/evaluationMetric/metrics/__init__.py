@@ -7,4 +7,4 @@ from src.evaluation.evaluationMetric.metrics.daviesBoundingMetric import DaviesB
 from src.evaluation.evaluationMetric.metrics.precision import PrecisionMetric
 from src.evaluation.evaluationMetric.metrics.recall import RecallMetric
 from src.evaluation.evaluationMetric.metrics.specificity import SpecificityMetric
-
+from src.evaluation.evaluationMetric.metrics.roc_curve import RocCurve
