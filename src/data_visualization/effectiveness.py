@@ -1,5 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import pathlib
+from os import sep
+
+def get_file_path(file_name_ids):
+    folder_path = str(pathlib.Path(__file__).parent.absolute().parent.parent) + sep + 'generated_graphs' + sep
+    file_name = ''
+    for file_name_id in file_name_ids:
+        file_name += file_name_id
+        file_name += '_'
+    file_name = file_name[:-1]
+    file_name += '.png'
+    return folder_path + file_name
 
 
 def plot_learning_curve(data, algorithm_id, database_id):
@@ -29,6 +41,8 @@ def plot_learning_curve(data, algorithm_id, database_id):
     plt.plot(train_sizes, test_scores_mean, 'o-', color="g",
              label="Cross-validation score")
     plt.legend(loc="best")
-    plt.show()
+    file_path = get_file_path(
+        ['learining_curve', database_id[5:-4], algorithm_id])
+    plt.savefig(file_path, format='png')
     plt.cla()
     plt.clf()
