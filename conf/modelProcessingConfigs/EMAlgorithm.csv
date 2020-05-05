@@ -1,5 +1,5 @@
 modelAlgorithm EMAlgorithm
-n_components 2^6^10
-n_init 2^5^10
-max_iter 10^50^100
-init_params kmeans^random
+n_components 2^
+n_init 2^
+max_iter 10^
+init_params kmeans^
