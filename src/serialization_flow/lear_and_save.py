@@ -23,10 +23,14 @@ model_conf = parse_add_conf({}, model_conf_path)
 file = open("results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
 dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, db_conf), file=file)
 modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, model_conf), file=file, db_conf=Configuration(ConfigurationType.DATALOADING, db_conf))
+
 # processing
 data_map = dataLoader.load()
-print(data_map)
 process_result = modelProcessor.process(data_map)
-print(process_result)
+model_algorithm = modelProcessor.model.model_algorithm
+
+print(model_algorithm)
+
+# super_karolinkas_service.serialize_model(model_algorithm)
 
 
