@@ -4,6 +4,8 @@ from os.path import sep
 from src.common.configuration.conf import parse_add_conf, Configuration, ConfigurationType
 from src.dataLoading.csv_data_loader import CsvDataLoader
 from src.modelProcessing.modelProcessor import ModelProcessor
+from src.serialization_flow.serialize_service import serialize_model
+
 
 AdaBoost = "AdaBoost.csv"
 XGBoost = "XGBoost.csv"
@@ -31,6 +33,4 @@ model_algorithm = modelProcessor.model.model_algorithm
 
 print(model_algorithm)
 
-# super_karolinkas_service.serialize_model(model_algorithm)
-
-
+serialize_model(model_algorithm, 'drzewka')
