@@ -1,6 +1,6 @@
 class AlgorithmBaseGroup:
     def __init__(self, conf):
-        pass
+        self.model_algorithm = None
 
     def setup(self, data_map):
         self.data_map = data_map

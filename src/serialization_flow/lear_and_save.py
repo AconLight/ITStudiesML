@@ -11,7 +11,7 @@ SVM = "SVM.csv"
 RandomForest = "RandomForest.csv"
 
 #############    CHANGE    HERE    ALGORITHM    ###################
-algorithm = SVM
+algorithm = RandomForest
 
 db_conf_path = "project_learn_and_save_configs" + sep + "database.csv"
 model_conf_path = "project_learn_and_save_configs" + sep + algorithm

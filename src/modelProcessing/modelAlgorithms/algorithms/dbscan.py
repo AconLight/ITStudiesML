@@ -11,9 +11,9 @@ class DBSCAN(AlgorithmBaseGroup):
         self.algorithm = conf.get_entry('algorithm')
 
     def train(self):
-        dbscan = sklearn.cluster.DBSCAN(min_samples=self.min_samples, eps=self.eps, algorithm=self.algorithm)
+        model_algorithm = sklearn.cluster.DBSCAN(min_samples=self.min_samples, eps=self.eps, algorithm=self.algorithm)
         self.dbpred = None
-        self.dbpred = dbscan.fit_predict(self.X)
+        self.dbpred = model_algorithm.fit_predict(self.X)
 
     def predict(self):
         return self.dbpred

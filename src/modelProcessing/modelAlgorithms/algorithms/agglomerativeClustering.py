@@ -9,10 +9,10 @@ class AgglomerativeClustering(AlgorithmBaseGroup):
         n_clusters = int(conf.get_entry('n_clusters'))  # {2, 4, 10}
         affinity = conf.get_entry('affinity')  # {"euclidean", "l1", "l2", "manhattan", "cosine"}
         linkage = conf.get_entry('linkage')  # {"ward", "complete", "average", "single"}
-        self.agglomerativeClustering=DUPA(n_clusters=n_clusters, affinity=affinity, linkage=linkage)
+        self.model_algorithm=DUPA(n_clusters=n_clusters, affinity=affinity, linkage=linkage)
 
     def train(self):
-        self.agglomerativeClustering.fit(self.X)
+        self.model_algorithm.fit(self.X)
 
     def predict(self):
-        return self.agglomerativeClustering.fit_predict(self.X)
+        return self.model_algorithm.fit_predict(self.X)
