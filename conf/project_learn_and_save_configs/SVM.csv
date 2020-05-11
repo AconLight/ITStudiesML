@@ -1,0 +1,3 @@
+modelAlgorithm SVM
+kernel sigmoid
+tol 5e-2
