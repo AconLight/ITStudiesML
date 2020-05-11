@@ -4,6 +4,7 @@ from src.evaluation.evaluationMetric.metrics.dummyGroupMetric import DummyGroupM
 from src.evaluation.evaluationMetric.metrics.accuracy import AccuracyMetric
 from src.evaluation.evaluationMetric.metrics.calinskiHarabaszMetric import CalinskiHarabaszMetric
 from src.evaluation.evaluationMetric.metrics.daviesBoundingMetric import DaviesBoundinMetric
+from src.evaluation.evaluationMetric.metrics.silhouette import Silhouette
 from src.evaluation.evaluationMetric.metrics.precision import PrecisionMetric
 from src.evaluation.evaluationMetric.metrics.recall import RecallMetric
 from src.evaluation.evaluationMetric.metrics.specificity import SpecificityMetric
