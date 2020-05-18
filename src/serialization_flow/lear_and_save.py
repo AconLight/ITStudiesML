@@ -24,16 +24,12 @@ model_conf = parse_add_conf({}, model_conf_path)
 
 file = open("results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
 dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, db_conf), file=file)
-# modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, model_conf), file=file, db_conf=Configuration(ConfigurationType.DATALOADING, db_conf))
+modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, model_conf), file=file, db_conf=Configuration(ConfigurationType.DATALOADING, db_conf))
 
 # processing
 data_map = dataLoader.load()
 
 print(data_map)
-
-print(predict(data_map['FEED_COLUMNS_train']))
-
-print('elo')
 process_result = modelProcessor.process(data_map)
 model_algorithm = modelProcessor.model.model_algorithm
 

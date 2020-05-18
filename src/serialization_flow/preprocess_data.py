@@ -1,3 +1,5 @@
+from itertools import product
+
 from src.serialization_flow.preprocess_algorithms.algorithms.ZScore import ZScore
 
 
@@ -19,7 +21,13 @@ class DataPreprocessor():
 
         return data
 
-    def run_all_possibilities(self, data):
+    def get_all_possibilities(self):
+        possibilities = []
         for data_preprocess_element in self.data_preprocess_elements:
+            func_params_names = []
             for function in data_preprocess_element.get_all_params_possibilities():
-                function(data)
+                func_params_names.append(function)
+            possibilities.append(func_params_names)
+
+        possibilities_prod = list(product(*possibilities))
+        return possibilities_prod
