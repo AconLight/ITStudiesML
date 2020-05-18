@@ -4,6 +4,7 @@ from os.path import sep
 from src.common.configuration.conf import parse_add_conf, Configuration, ConfigurationType
 from src.dataLoading.csv_data_loader import CsvDataLoader
 from src.modelProcessing.modelProcessor import ModelProcessor
+from src.serialization_flow.learnt_model_service import predict
 from src.serialization_flow.serialize_service import serialize_model, deserialize_model
 
 AdaBoost = "AdaBoost.csv"
@@ -23,20 +24,23 @@ model_conf = parse_add_conf({}, model_conf_path)
 
 file = open("results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
 dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, db_conf), file=file)
-modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, model_conf), file=file, db_conf=Configuration(ConfigurationType.DATALOADING, db_conf))
+# modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, model_conf), file=file, db_conf=Configuration(ConfigurationType.DATALOADING, db_conf))
 
 # processing
 data_map = dataLoader.load()
 
 print(data_map)
 
+print(predict(data_map['FEED_COLUMNS_train']))
+
+print('elo')
 process_result = modelProcessor.process(data_map)
 model_algorithm = modelProcessor.model.model_algorithm
 
 print(model_algorithm)
 
 serialize_model(model_algorithm, 'drzewka')
-
-m2 = deserialize_model('drzewka')
-
-print(m2)
+#
+# m2 = deserialize_model('drzewka')
+#
+# print(m2)
