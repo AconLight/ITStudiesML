@@ -4,8 +4,7 @@ from os.path import sep
 from src.common.configuration.conf import parse_add_conf, Configuration, ConfigurationType
 from src.dataLoading.csv_data_loader import CsvDataLoader
 from src.modelProcessing.modelProcessor import ModelProcessor
-from src.serialization_flow.serialize_service import serialize_model
-
+from src.serialization_flow.serialize_service import serialize_model, deserialize_model
 
 AdaBoost = "AdaBoost.csv"
 XGBoost = "XGBoost.csv"
@@ -28,9 +27,16 @@ modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, 
 
 # processing
 data_map = dataLoader.load()
+
+print(data_map)
+
 process_result = modelProcessor.process(data_map)
 model_algorithm = modelProcessor.model.model_algorithm
 
 print(model_algorithm)
 
 serialize_model(model_algorithm, 'drzewka')
+
+m2 = deserialize_model('drzewka')
+
+print(m2)

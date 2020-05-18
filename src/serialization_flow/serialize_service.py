@@ -6,4 +6,4 @@ def serialize_model(model, filename):
 
 
 def deserialize_model(filename):
-    model = load(filename + '.joblib')
+    return load(filename + '.joblib')
