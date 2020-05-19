@@ -11,3 +11,7 @@ from src.modelProcessing.modelAlgorithms.algorithms.kmeans import KMeans
 from src.modelProcessing.modelAlgorithms.algorithms.dbscan import DBSCAN
 from src.modelProcessing.modelAlgorithms.algorithms.emAlgorithm import EMAlgorithm
 from src.modelProcessing.modelAlgorithms.algorithms.agglomerativeClustering import AgglomerativeClustering
+
+from src.modelProcessing.modelAlgorithms.algorithms.adaboost import AdaBoost
+from src.modelProcessing.modelAlgorithms.algorithms.xgboost import XGBoost
+
