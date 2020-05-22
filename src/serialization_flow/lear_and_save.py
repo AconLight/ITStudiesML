@@ -5,6 +5,7 @@ from src.common.configuration.conf import parse_add_conf, Configuration, Configu
 from src.dataLoading.csv_data_loader import CsvDataLoader
 from src.modelProcessing.modelProcessor import ModelProcessor
 from src.serialization_flow.learnt_model_service import predict
+from src.serialization_flow.preprocess_data import DataPreprocessor
 from src.serialization_flow.serialize_service import serialize_model, deserialize_model
 
 AdaBoost = "AdaBoost.csv"
@@ -22,8 +23,14 @@ db_conf = parse_add_conf({}, db_conf_path)
 model_conf = parse_add_conf({}, model_conf_path)
 
 
+dp = DataPreprocessor()
+
+preprocess_function = dp.get_single_possibility()
+
+
 file = open("results" + sep + datetime.now().strftime("%Y-%m-%dT%H-%M-%S") + ".txt", "w+")
 dataLoader = CsvDataLoader(Configuration(ConfigurationType.DATALOADING, db_conf), file=file)
+dataLoader.preprocess_functions = preprocess_function[0]
 modelProcessor = ModelProcessor(Configuration(ConfigurationType.CLASSIFICATION, model_conf), file=file, db_conf=Configuration(ConfigurationType.DATALOADING, db_conf))
 
 # processing

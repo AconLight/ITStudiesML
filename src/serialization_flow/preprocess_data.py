@@ -32,3 +32,21 @@ class DataPreprocessor():
 
         possibilities_prod = list(product(*possibilities))
         return possibilities_prod
+
+    def get_single_possibility(self):
+        zscore = ZScore()
+        zscore.params_possibilities = {
+            "a": [1],
+            "b": [2]
+        }
+        my_data_preprocess_elements = [zscore]
+        possibilities = []
+        for data_preprocess_element in my_data_preprocess_elements:
+            func_params_names = []
+            for function in data_preprocess_element.get_all_params_possibilities():
+                func_params_names.append(function)
+            possibilities.append(func_params_names)
+
+        possibilities_prod = list(product(*possibilities))
+        return possibilities_prod
+
