@@ -1,4 +1,4 @@
 modelAlgorithm XGBoost
-max_depth 2
-sampling_method gradient_based
-num_parallel_tree 1
+max_depth 2^
+sampling_method gradient_based^
+num_parallel_tree 1^

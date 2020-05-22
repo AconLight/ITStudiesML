@@ -1,5 +1,6 @@
 from itertools import product
 
+from src.serialization_flow.preprocess_algorithms.algorithms.Chi2 import Chi2
 from src.serialization_flow.preprocess_algorithms.algorithms.ZScore import ZScore
 
 

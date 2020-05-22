@@ -2,6 +2,8 @@ from itertools import product
 
 class PreprocessAlgorithmBase():
 
+    columns_numb = 4
+
     def __init__(self):
         self.params_possibilities = {}
         self.name = 'base'

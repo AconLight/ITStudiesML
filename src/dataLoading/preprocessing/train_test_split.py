@@ -4,15 +4,22 @@ import random
 
 class TrainTestSplitter():
     @staticmethod
-    def split(dataset, test_set_percentage):
+    def split(dataset, test_set_percentage, preprocess_functions):
         data_map = {}
         training_set_indecies = None
         test_set_indecies = None
+        print('dataset.splited_data')
+        print(dataset.splited_data)
         for columns_key in dataset.splited_data.keys():
             columns = dataset.splited_data[columns_key]
             if len(columns) == 0:
                 raise ValueError("There are not data columns specified")
-            data = dataset.get_columns(columns)
+            if len(columns_key.split('FEED')) > 1:
+                data = dataset.get_columns(columns)
+                for function in preprocess_functions:
+                    data = function['func'](data)
+            else:
+                data = dataset.get_columns(columns)
             if test_set_percentage == 0:
                 data_map[columns_key] = data
             else:
