@@ -2,15 +2,16 @@ from src.serialization_flow.preprocess_algorithms.PreprocessAlgorithmBase import
 import numpy as np
 import pandas as pd
 
+
 class HighVaraince(PreprocessAlgorithmBase):
 
     def __init__(self):
         self.params_possibilities = {
-            "columns_to_reduce": [1, 2, 3],
+            "columns_to_reduce": [1, 2],
         }
         self.name = 'High Variance'
 
-    def preprocess(self, data, params):
+    def preprocess(self, data, y, params):
         variances = []
         data_by_col = []
         cols = []
@@ -23,9 +24,10 @@ class HighVaraince(PreprocessAlgorithmBase):
         idxs = []
         for col in range(column_size - params['columns_to_reduce']):
             idxs.append(np.argmax(variances))
-            variances.remove(variances[idxs[col]])
+            variances[idxs[col]] -= max(variances)
 
         npdf = pd.DataFrame(columns=list(map(str, range(column_size - params['columns_to_reduce']))))
         for col in range(column_size - params['columns_to_reduce']):
-            npdf[cols[idxs[col]]] = data_by_col[idxs[col]]
+            npdf[str(col)] = data_by_col[idxs[col]]
+
         return npdf

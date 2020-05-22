@@ -8,7 +8,7 @@ class PreprocessAlgorithmBase():
         self.params_possibilities = {}
         self.name = 'base'
 
-    def preprocess(self, data, params):
+    def preprocess(self, data, y, params):
         return data
 
     def get_all_params_possibilities(self):
@@ -28,5 +28,5 @@ class PreprocessAlgorithmBase():
             params_possibility_dic = {}
             for param in params_possibility:
                 params_possibility_dic[list(param.keys())[0]] = param[list(param.keys())[0]]
-            preprocess_functions.append({'name': self.name, 'params': params_possibility_dic, 'func': lambda data: self.preprocess(data, params_possibility_dic)})
+            preprocess_functions.append({'name': self.name, 'params': params_possibility_dic, 'func': lambda data, y: self.preprocess(data, y, params_possibility_dic)})
         return preprocess_functions

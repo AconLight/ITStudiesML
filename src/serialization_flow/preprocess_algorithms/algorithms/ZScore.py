@@ -10,7 +10,7 @@ class ZScore(PreprocessAlgorithmBase):
         }
         self.name = 'z-score'
 
-    def preprocess(self, data, params):
+    def preprocess(self, data, y, params):
         print('run ZScore with params:')
         print(params)
         return data

@@ -1,13 +1,14 @@
 from itertools import product
 
 from src.serialization_flow.preprocess_algorithms.algorithms.Chi2 import Chi2
+from src.serialization_flow.preprocess_algorithms.algorithms.HighVariance import HighVaraince
 from src.serialization_flow.preprocess_algorithms.algorithms.ZScore import ZScore
 
 
 class DataPreprocessor():
 
     def __init__(self):
-        self.data_preprocess_elements = [ZScore()]
+        self.data_preprocess_elements = [HighVaraince()]
 
     def load(self):
         pass

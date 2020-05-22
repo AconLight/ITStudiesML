@@ -10,6 +10,9 @@ class TrainTestSplitter():
         test_set_indecies = None
         print('dataset.splited_data')
         print(dataset.splited_data)
+        preprocess_y = None
+        if 'CLASSIFICATION_COLUMN' in dataset.splited_data.keys():
+            preprocess_y = dataset.get_columns(dataset.splited_data['CLASSIFICATION_COLUMN'])
         for columns_key in dataset.splited_data.keys():
             columns = dataset.splited_data[columns_key]
             if len(columns) == 0:
@@ -17,7 +20,7 @@ class TrainTestSplitter():
             if len(columns_key.split('FEED')) > 1:
                 data = dataset.get_columns(columns)
                 for function in preprocess_functions:
-                    data = function['func'](data)
+                    data = function['func'](data, preprocess_y)
             else:
                 data = dataset.get_columns(columns)
             if test_set_percentage == 0:
