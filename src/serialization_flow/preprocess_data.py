@@ -10,13 +10,18 @@ from src.serialization_flow.preprocess_algorithms.algorithms.ZScore import ZScor
 
 class DataPreprocessor():
 
+    def setup1(self):
+        # selekcja
+        chi2 = Chi2()
+
+        # normalizacja
+        zscore = ZScore()
+        log1 = LogScale()
+
+        self.data_preprocess_elements = [chi2, zscore, log1]
+
     def __init__(self):
-        # self.data_preprocess_elements = [LogScale(), NonnegativeNorm(), Chi2()]
-        self.data_preprocess_elements = [HighVaraince()]
-        # self.data_preprocess_elements = [LogScale(), LowVariance()]
-        #
-        # self.data_preprocess_elements = [ZScore(), LogScale(), NonnegativeNorm(), Chi2()]
-        # self.data_preprocess_elements = [MinMax(), LogScale(), HighVaraince()]
+        self.setup1()
 
 
     def load(self):

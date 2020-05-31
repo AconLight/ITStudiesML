@@ -89,8 +89,10 @@ for preprocess_function in preprocess_functions:
                         preprocess_info += func['name']
                         preprocess_info += ': '
                         preprocess_info += str(func['params'])
-                        preprocess_info += ' | '
+                        preprocess_info += ' _ '
 
+                    print('preprocess_info')
+                    print(preprocess_info)
                     result_storage.add_result(db_conf['data_file_path'] + preprocess_info, my_model_conf.copy(), results)
                     # if best_results[db_confs[db] + ", " + str(model_algorithm)] < results[0]:
                     #     best_results[db_confs[db] + ", " + str(model_algorithm)] = str(my_model_conf) + str(results[0])
