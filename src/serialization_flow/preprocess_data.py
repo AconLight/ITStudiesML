@@ -2,13 +2,22 @@ from itertools import product
 
 from src.serialization_flow.preprocess_algorithms.algorithms.Chi2 import Chi2
 from src.serialization_flow.preprocess_algorithms.algorithms.HighVariance import HighVaraince
+from src.serialization_flow.preprocess_algorithms.algorithms.LogScale import LogScale
+from src.serialization_flow.preprocess_algorithms.algorithms.LowVariance import LowVariance
+from src.serialization_flow.preprocess_algorithms.algorithms.MinMax import MinMax
 from src.serialization_flow.preprocess_algorithms.algorithms.ZScore import ZScore
 
 
 class DataPreprocessor():
 
     def __init__(self):
+        # self.data_preprocess_elements = [LogScale(), NonnegativeNorm(), Chi2()]
         self.data_preprocess_elements = [HighVaraince()]
+        # self.data_preprocess_elements = [LogScale(), LowVariance()]
+        #
+        # self.data_preprocess_elements = [ZScore(), LogScale(), NonnegativeNorm(), Chi2()]
+        # self.data_preprocess_elements = [MinMax(), LogScale(), HighVaraince()]
+
 
     def load(self):
         pass
