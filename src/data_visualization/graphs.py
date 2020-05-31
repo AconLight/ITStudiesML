@@ -65,9 +65,9 @@ def parameter_plot(database_id, metric_id, algorithm_id, parameter_id, column_1_
 def groups_dist_plot(algorithm_id, database_id, metric_id, parameter_id, parameter_values):
     print("groups plot")
     for index, parameter_value in enumerate(parameter_values):
-        data = parameter_value['data']["FEED_COLUMNS"]
+        data = parameter_value['data']["FEED_COLUMNS_test"]
         results = parameter_value['process_result']
-        cols = parameter_value['data']["FEED_COLUMNS"].keys()
+        cols = parameter_value['data']["FEED_COLUMNS_test"].keys()
         for colId in range(int(len(cols) / 2)):
             col1_id = cols[colId*2]
             col2_id = cols[colId*2+1]
