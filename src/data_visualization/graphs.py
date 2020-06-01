@@ -24,6 +24,10 @@ def parameter_comparison_plot(algorithm_id, database_id, metric_id, parameter_id
     sns.scatterplot(x=parameter_id, y=metric_id, data=df)
 
     file_path = get_file_path([algorithm_id, database_id[5:-4], metric_id, parameter_id])
+    file_path = file_path.replace("'", "")
+    file_path = file_path.replace("\"", "")
+    file_path = file_path.replace("{", "")
+    file_path = file_path.replace("}", "")
     plt.savefig(file_path, format='png')
     plt.cla()
     plt.clf()
@@ -36,6 +40,10 @@ def algorithm_comparison_plot(database_id, metric_id, best_results):
     sns.scatterplot(x='algorithms', y=metric_id, data=df)
 
     file_path = get_file_path(['algorithms', database_id[5:-4], metric_id])
+    file_path = file_path.replace("'", "")
+    file_path = file_path.replace("\"", "")
+    file_path = file_path.replace("{", "")
+    file_path = file_path.replace("}", "")
     plt.savefig(file_path, format='png')
     plt.cla()
     plt.clf()
