@@ -1,7 +1,7 @@
 from itertools import product
 
 from src.serialization_flow.preprocess_algorithms.algorithms.Chi2 import Chi2
-from src.serialization_flow.preprocess_algorithms.algorithms.HighVariance import HighVaraince
+from src.serialization_flow.preprocess_algorithms.algorithms.HighVariance import HighVariance
 from src.serialization_flow.preprocess_algorithms.algorithms.LogScale import LogScale
 from src.serialization_flow.preprocess_algorithms.algorithms.LowVariance import LowVariance
 from src.serialization_flow.preprocess_algorithms.algorithms.MinMax import MinMax
@@ -17,8 +17,9 @@ class DataPreprocessor():
         # normalizacja
         zscore = ZScore()
         log1 = LogScale()
+        log2 = LogScale()
 
-        self.data_preprocess_elements = [chi2]
+        self.data_preprocess_elements = [Chi2()]
 
     def __init__(self):
         self.setup1()
@@ -49,12 +50,7 @@ class DataPreprocessor():
         return possibilities_prod
 
     def get_single_possibility(self):
-        zscore = ZScore()
-        zscore.params_possibilities = {
-            "a": [1],
-            "b": [2]
-        }
-        my_data_preprocess_elements = [zscore]
+        my_data_preprocess_elements = [Chi2()]
         possibilities = []
         for data_preprocess_element in my_data_preprocess_elements:
             func_params_names = []

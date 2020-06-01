@@ -4,6 +4,7 @@ class AlgorithmBase:
 
     def setup(self, data_map):
         self.data_map = data_map
+        print(self.data_map.keys())
         self.Y_train = self.data_map["CLASSIFICATION_COLUMN_train"].values.ravel()
         self.X_train = self.data_map["FEED_COLUMNS_train"]
 

@@ -5,7 +5,7 @@ class LogScale(PreprocessAlgorithmBase):
 
     def __init__(self):
         self.params_possibilities = {
-            "column_id": [0, 1],
+            "column_id": [13],
         }
         self.name = 'log scale'
 

@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 
 
-class HighVaraince(PreprocessAlgorithmBase):
+class HighVariance(PreprocessAlgorithmBase):
 
     def __init__(self):
         self.params_possibilities = {
-            "columns_to_reduce": [1, 2],
+            "columns_to_reduce": [2],
         }
         self.name = 'High Variance'
 

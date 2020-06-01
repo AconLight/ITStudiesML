@@ -7,7 +7,7 @@ class Chi2(PreprocessAlgorithmBase):
 
     def __init__(self):
         self.params_possibilities = {
-            "columns_to_reduce": [2],
+            "columns_to_reduce": [1],
         }
         self.name = 'chi2'
 

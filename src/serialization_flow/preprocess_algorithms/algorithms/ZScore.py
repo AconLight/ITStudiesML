@@ -7,7 +7,7 @@ class ZScore(PreprocessAlgorithmBase):
         self.u = u
         self.q = q
         self.params_possibilities = {
-            "column_id": [0, 1],
+            "column_id": [5],
         }
         self.name = 'z-score'
 

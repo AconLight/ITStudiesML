@@ -5,9 +5,8 @@ import pandas as pd
 class LowVariance(PreprocessAlgorithmBase):
 
     def __init__(self):
-        def __init__(self):
             self.params_possibilities = {
-                "columns_to_reduce": [1, 2],
+                "columns_to_reduce": [1, 10],
             }
             self.name = 'Low Variance'
 
