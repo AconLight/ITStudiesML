@@ -25,7 +25,8 @@ class Chi2(PreprocessAlgorithmBase):
         columns = []
         for col in cols:
             columns.append(list(data.head())[col])
+        print(params)
         print(columns)
-        params['selected_columns'] = str(columns)
+        # params['selected_columns'] = str(columns)
         drop_cols = [x for x in list(data.head()) if x not in columns]
         return data.drop(drop_cols, axis=1)
