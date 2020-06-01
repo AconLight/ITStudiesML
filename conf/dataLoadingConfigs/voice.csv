@@ -1,0 +1,5 @@
+feedColumns meanfreq^sd^median^Q25^Q75^IQR^skew^kurt^sp.ent^sfm^mode^centroid^meanfun^minfun^maxfun^meandom^mindom^maxdom^dfrange^modindx^
+classificationColumn label^
+data_file_path data/voice.csv
+test_set_percentage 0.3
+split_type classification

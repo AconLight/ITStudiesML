@@ -18,7 +18,7 @@ class DataPreprocessor():
         zscore = ZScore()
         log1 = LogScale()
 
-        self.data_preprocess_elements = [chi2, zscore, log1]
+        self.data_preprocess_elements = [chi2]
 
     def __init__(self):
         self.setup1()

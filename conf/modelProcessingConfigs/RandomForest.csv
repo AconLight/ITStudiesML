@@ -1,4 +1,4 @@
 modelAlgorithm RandomForest
 n_estimators 2^
-max_depth 2^
+max_depth 10^
 max_leaf_nodes 2^
