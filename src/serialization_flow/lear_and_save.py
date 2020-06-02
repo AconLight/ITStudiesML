@@ -43,7 +43,7 @@ model_algorithm = modelProcessor.model.model_algorithm
 print(model_algorithm)
 
 serialize_model(model_algorithm, 'drzewka')
-#
-# m2 = deserialize_model('drzewka')
-#
-# print(m2)
+
+m2 = deserialize_model('drzewka')
+
+print(m2)

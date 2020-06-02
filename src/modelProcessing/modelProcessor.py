@@ -20,12 +20,12 @@ class ModelProcessor:
         self.file.write("model algorithm: " + str(self.configuration.get_entry('modelAlgorithm')) + '\n')
         self.model.train()
         res = self.model.predict()
-        if "CLASSIFICATION_COLUMN_test" in data_map:
-            save_matrix(ConfusionMatrix().calculate(res, data_map), str(self.configuration.get_entry('modelAlgorithm')), str(self.db_conf.get_entry(DataLoadingConfigurationEntries.DATA_FILEPATH.value)))
+        # if "CLASSIFICATION_COLUMN_test" in data_map:
+        #     save_matrix(ConfusionMatrix().calculate(res, data_map), str(self.configuration.get_entry('modelAlgorithm')), str(self.db_conf.get_entry(DataLoadingConfigurationEntries.DATA_FILEPATH.value)))
 
-        if "CLASSIFICATION_COLUMN_test" in data_map and self.model.learning_data is not None and self.db_conf is not None:
-            print(str(self.configuration.config))
-            plot_learning_curve(self.model.learning_data, str(self.configuration.get_entry('modelAlgorithm')), str(self.db_conf.get_entry(DataLoadingConfigurationEntries.DATA_FILEPATH.value)))
+        # if "CLASSIFICATION_COLUMN_test" in data_map and self.model.learning_data is not None and self.db_conf is not None:
+        #     print(str(self.configuration.config))
+        #     plot_learning_curve(self.model.learning_data, str(self.configuration.get_entry('modelAlgorithm')), str(self.db_conf.get_entry(DataLoadingConfigurationEntries.DATA_FILEPATH.value)))
         return DataFrame(res, columns=None)
 
 
