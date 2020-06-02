@@ -3,9 +3,9 @@ from src.serialization_flow.learnt_model_service import predict
 import numpy as np
 
 
-def process():
+def process_audio():
     data = subprocess.check_output(
-        '"C:\\Program Files\\R\\R-4.0.0\\bin\\x64\\Rscript.exe" ..\\gender_recognition\\main.R')
+        '"C:\\Program Files\\R\\R-4.0.0\\bin\\x64\\Rscript.exe" ..\\gender_recognition\\audio\\audio.R')
     data = [float(i) for i in str(data).split("\"")[1].split(" ")]
 
     # expected columns: ['meanfreq', 'sd', 'median', 'Q25', 'IQR', 'skew', 'kurt', 'sp.ent', 'sfm', 'mode', 'centroid', 'meanfun', 'minfun', 'maxfun', 'meandom', 'mindom', 'maxdom', 'dfrange', 'modindx']

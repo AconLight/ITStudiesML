@@ -1,9 +1,14 @@
 import tkinter as tk                # python 3
 from enum import Enum
+from time import sleep
 from tkinter import font  as tkfont # python 3
 
 from PIL import Image, ImageTk
 import matplotlib.pyplot as plt
+import threading
+
+from src.gender_recognition.audio.audio import process_audio
+
 
 
 
@@ -11,7 +16,7 @@ class View(tk.Tk):
 
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
-
+        self.recording_thread = None
         self.geometry('600x500')
         self.title_font = tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 
@@ -21,18 +26,46 @@ class View(tk.Tk):
         container.grid_columnconfigure(0, weight=1)
 
         self.frames = {}
-        for F in (RecordingPage, GenederRecognitionPage):
-            page_name = F.__name__
-            frame = F(parent=container, controller=self)
-            self.frames[page_name] = frame
-            frame.grid(row=0, column=0, sticky="nsew")
+        self.startup_actions = {}
+
+        self.frames['RecordingPage'] = RecordingPage(parent=container, controller=self)
+        self.frames['RecordingPage'].grid(row=0, column=0, sticky="nsew")
+        self.startup_actions['RecordingPage'] = self.stop_recording
+
+        self.frames['GenederRecognitionPage'] = GenederRecognitionPage(parent=container, controller=self)
+        self.frames['GenederRecognitionPage'].grid(row=0, column=0, sticky="nsew")
+        self.startup_actions['GenederRecognitionPage'] = self.start_recording
 
         self.show_frame("RecordingPage")
 
     def show_frame(self, page_name):
-        '''Show a frame for the given page name'''
+        if page_name in self.startup_actions.keys():
+            self.startup_actions[page_name]()
+
         frame = self.frames[page_name]
         frame.tkraise()
+
+    def start_recording(self):
+        self.recording_thread_kill_event = threading.Event()
+        self.recording_thread = threading.Thread(name='recording', target=self.start_recording_loop, args=(self.recording_thread_kill_event,))
+        self.recording_thread.start()
+
+    def start_recording_loop(self, stop_event):
+            while not stop_event.wait(0):
+                # print("Hello", flush=True)
+                # sleep(1)
+                prediction = process_audio()
+                if prediction == 'male':
+                    self.set_gender(Gender.MALE)
+                elif prediction == 'female':
+                    self.set_gender(Gender.FEMALE)
+
+    def stop_recording(self):
+        if self.recording_thread != None:
+            self.recording_thread_kill_event.set()
+            self.recording_thread = None
+
+
 
     def set_gender(self,gender):
         app.frames["GenederRecognitionPage"].set_gender(gender)
@@ -47,6 +80,8 @@ class RecordingPage(tk.Frame):
         button.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
 
         button.pack()
+
+
 
 
 class Gender(Enum):
