@@ -1,10 +1,12 @@
 import os
 
 import librosa
+import soundfile
 
 from src.gender_recognition.audio.audio import AudioProcessor
 from src.gender_recognition.audio.audio_training_examples import AudioSampleGenerator
 import pandas as pd
+import numpy as np
 
 class DatasetClasses:
     SILENCE = 0
@@ -21,7 +23,7 @@ class AudioDataset():
         self.rows.append(row)
 
     def generate_dataset(self):
-        return pd.DataFrame(data=self.rows)
+        return pd.DataFrame(data=np.concatenate(self.rows, axis=0))
 
     def save(self,path):
         self.generate_dataset().to_csv(path)
@@ -42,17 +44,19 @@ class AudioDatasetCreator:
         self.root_directory = root_directory
         self.audio_sample_generator = AudioSampleGenerator()
         self.audio_processor = AudioProcessor.create_audio_processor()
+        self.counter = 0
+        self.SAVE_EACH_N_FILES = 5
 
 
-    def generate_dataset(self):
+    def generate_dataset(self, save_path = None):
         dataset = AudioDataset()
 
-        self.process_directory(dataset, "male")
-        self.process_directory(dataset, "female")
+        self.process_directory(dataset, "male", save_path)
+        self.process_directory(dataset, "female", save_path)
 
-        return dataset.generate_dataset()
+        return dataset
 
-    def process_directory(self, dataset, directory_name):
+    def process_directory(self, dataset, directory_name, save_path):
         dir_path = os.path.join(self.root_directory, directory_name)
         files = self.get_files_in_current_directory(dir_path)
         for filename in files:
@@ -65,21 +69,27 @@ class AudioDatasetCreator:
                 filename = self.save_temporary_audio(audio, sampling_rate)
 
                 row = self.audio_processor.process_audio_from_filepath(filename)
-                row = list(row)
 
                 if is_person and directory_name == "male":
-                    row.append(DatasetClasses.MALE)
+                    np.append(row, [[DatasetClasses.MALE]], axis=1)
                 elif is_person and directory_name == "female":
-                    row.append(DatasetClasses.FEMALE)
+                    np.append(row, [[DatasetClasses.FEMALE]], axis=1)
                 else:
-                    row.append(DatasetClasses.SILENCE)
+                    np.append(row, [[DatasetClasses.SILENCE]], axis=1)
 
                 dataset.add_row(row)
+
+            self.counter += 1
+
+            if save_path is not None and self.counter %self.SAVE_EACH_N_FILES == 0:
+                print("Saving dataset after samples " + str(self.counter) )
+                dataset.save(save_path)
+
 
     def get_files_in_current_directory(self, directory):
         return [f for f in os.listdir(directory)]
 
     def save_temporary_audio(self, audio_samples, sampling_rate):
         filename = 'tmp.wav'
-        librosa.output.write_wav(filename, audio_samples, sampling_rate)
+        soundfile.write(filename, audio_samples, sampling_rate)
         return filename
