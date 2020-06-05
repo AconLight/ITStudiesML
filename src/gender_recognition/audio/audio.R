@@ -3,30 +3,30 @@ library(audio)
 library(tuneR, warn.conflicts = FALSE)
 library(fftw)
 library(seewave)
+
+args <- commandArgs(trailingOnly = TRUE)
 sample_rate <- 44100
 record_length <- 0.5
-
-x <- rep(NA_real_, sample_rate * record_length)
-# start recording into x
-
-out <- record(x, sample_rate, 1)
-# monitor the recording progress
-wait(record_length)
-#while (is.null(x[0]) | is.na(x[0]) | is.nan(x[0]))
-#{
-#
-#}
-y <- as.vector(x)
-
-wave <- Wave(left = y, samp.rate = sample_rate)
-
-
-#turn off warnings
-options(warn = -1)
-
 bandpass_range_basic <- c(0, 44000)
 window_length <- 2048
 threshold <- 5
+
+print(length(args))
+if(length(args) == 0){
+  # Record
+  x <- rep(NA_real_, sample_rate * record_length)
+  out <- record(x, sample_rate, 1)
+  wait(record_length)
+  y <- as.vector(x)
+  wave <- Wave(left = y, samp.rate = sample_rate)
+
+}else{
+  # Load from file
+  print(getwd())
+  filepath <- 'tmp.wav'
+  wave <- tuneR::readWave(file.path(filepath), units = "seconds")
+}
+
 
 bandpass_range <- bandpass_range_basic #in case bp its higher than can be due to sampling rate
 if (bandpass_range[2] > ceiling(wave@samp.rate / 2) - 1) bandpass_range[2] <- ceiling(wave@samp.rate / 2) - 1

@@ -7,9 +7,7 @@ from PIL import Image, ImageTk
 import matplotlib.pyplot as plt
 import threading
 
-from src.gender_recognition.audio.audio import process_audio
-
-
+from src.gender_recognition.audio.audio import AudioProcessor
 
 
 class View(tk.Tk):
@@ -17,6 +15,8 @@ class View(tk.Tk):
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
         self.recording_thread = None
+        self.audio_processor = AudioProcessor.create_audio_processor()
+
         self.geometry('600x500')
         self.title_font = tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 
@@ -54,7 +54,7 @@ class View(tk.Tk):
             while not stop_event.wait(0):
                 # print("Hello", flush=True)
                 # sleep(1)
-                prediction = process_audio()
+                prediction = self.audio_processor.process_recorded_audio()
                 if prediction == 'male':
                     self.set_gender(Gender.MALE)
                 elif prediction == 'female':
