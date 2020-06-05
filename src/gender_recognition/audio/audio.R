@@ -21,10 +21,10 @@ if(length(args) == 0){
   wave <- Wave(left = y, samp.rate = sample_rate)
 
 }else{
-  # Load from file
+   #Load from file
   print(getwd())
-  filepath <- 'tmp.wav'
-  wave <- tuneR::readWave(file.path(filepath), units = "seconds")
+  filepath <- args[1]
+  wave <- tuneR::readWave(file.path(filepath), units = "samples")
 }
 
 

@@ -63,6 +63,7 @@ class AudioDatasetCreator:
                 filename = self.save_temporary_audio(audio, sampling_rate)
 
                 row = self.audio_processor.process_audio_from_filepath(filename)
+                row = list(row)
 
                 if is_person and directory_name == "male":
                     row.append(DatasetClasses.MALE)

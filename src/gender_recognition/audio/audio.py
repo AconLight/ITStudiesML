@@ -13,7 +13,7 @@ class AudioProcessor():
 
     def process_recorded_audio(self):
         data = subprocess.check_output(self.r_script_path)
-        return self.edit_nan_and_inf_data(data)
+        return predict(self.edit_nan_and_inf_data(data))[0]
 
     def process_audio_from_filepath(self, filepath):
         command = shlex.split(self.r_script_path + ' ' + os.path.join(os.getcwd(),filepath))
@@ -21,14 +21,14 @@ class AudioProcessor():
         return self.edit_nan_and_inf_data(data)
 
     def edit_nan_and_inf_data(self, data):
-        data = [float(i) for i in str(data).split("\"")[1].split(" ")]
+        data = [float(num) for num in str(data).split("\"")[-2].split()]
         data = np.array(data)
         where_are_NaNs = np.isnan(data)
         data[where_are_NaNs] = 0
         data[data == -np.inf] = 0
         data[data == np.inf] = 0
         data = data.reshape(1, -1)
-        return predict(data)[0]
+        return data
 
     @staticmethod
     def create_audio_processor():
