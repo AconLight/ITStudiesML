@@ -23,6 +23,8 @@ class AudioDataset():
     def generate_dataset(self):
         return pd.DataFrame(data=self.rows)
 
+    def save(self,path):
+        self.generate_dataset().to_csv(path)
 
 class AudioDatasetCreator:
     #

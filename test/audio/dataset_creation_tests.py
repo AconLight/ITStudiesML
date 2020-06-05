@@ -12,4 +12,5 @@ class DatasetCreationTests(TestCase):
         dataset = dataset_creator.generate_dataset()
 
         #then
-        self.assertEquals(4*153, dataset.shape[0])
+        self.assertNotEqual(dataset, None)
+        dataset.save('dataset.csv')
