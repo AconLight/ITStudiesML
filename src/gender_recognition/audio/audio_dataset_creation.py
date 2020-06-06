@@ -1,4 +1,5 @@
 import os
+import uuid
 
 import librosa
 import soundfile
@@ -69,9 +70,10 @@ class AudioDatasetCreator:
 
             for window_is_person_pair in window_is_person_pairs:
                 audio, is_person = window_is_person_pair
-                filename = self.save_temporary_audio(audio, sampling_rate)
 
+                filename = self.save_temporary_audio(audio, sampling_rate)
                 row = self.audio_processor.process_audio_from_filepath(filename)
+                os.remove(path=filename)
 
                 if is_person and directory_name == "male":
                     np.append(row, [[DatasetClasses.MALE]], axis=1)
@@ -96,6 +98,7 @@ class AudioDatasetCreator:
         return [f for f in os.listdir(directory)]
 
     def save_temporary_audio(self, audio_samples, sampling_rate):
-        filename = 'tmp.wav'
+        filename = str(uuid.uuid4()) + 'tmp.wav'
         soundfile.write(filename, audio_samples, sampling_rate)
         return filename
+
