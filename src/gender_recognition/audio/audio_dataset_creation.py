@@ -86,6 +86,10 @@ class AudioDatasetCreator:
                 dataset.save(save_path)
 
 
+        if save_path is not None:
+            print("Saving final dataset")
+            dataset.save(save_path)
+
     def get_files_in_current_directory(self, directory):
         return [f for f in os.listdir(directory)]
 
