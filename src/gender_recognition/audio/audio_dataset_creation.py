@@ -63,7 +63,7 @@ class AudioDatasetCreator:
         dir_path = os.path.join(self.root_directory, directory_name)
         files = self.get_files_in_current_directory(dir_path)
         for i,filename in enumerate(files):
-            print("Processing directory " + directory_name + " file [" + str(i+1) + "/" + str(len(files))+ "]")
+            print("Processing directory " + directory_name + " file " + filename + "[" + str(i+1) + "/" + str(len(files))+ "]")
             filepath = os.path.join(dir_path, filename)
 
             window_is_person_pairs, sampling_rate = self.audio_sample_generator.generate_audio_window_is_person_pairs_for_audio(
