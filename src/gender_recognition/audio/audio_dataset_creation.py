@@ -77,11 +77,11 @@ class AudioDatasetCreator:
                 os.remove(path=filename)
 
                 if is_person and directory_name == "male":
-                    np.append(row, [[DatasetClasses.MALE]], axis=1)
+                    row = np.append(row, [[DatasetClasses.MALE]], axis=1)
                 elif is_person and directory_name == "female":
-                    np.append(row, [[DatasetClasses.FEMALE]], axis=1)
+                    row = np.append(row, [[DatasetClasses.FEMALE]], axis=1)
                 else:
-                    np.append(row, [[DatasetClasses.SILENCE]], axis=1)
+                    row = np.append(row, [[DatasetClasses.SILENCE]], axis=1)
 
                 dataset.add_row(row)
 

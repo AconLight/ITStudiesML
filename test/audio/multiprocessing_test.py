@@ -2,7 +2,8 @@ import time
 from multiprocessing.pool import Pool
 
 
-def calcNum(n,x):  # some arbitrary, time-consuming calculation on a number
+def calcNum(args):  # s
+    n,x = args
     print("Calcs Started on ", n)
     print(x)
     m = n
@@ -20,7 +21,9 @@ if __name__ == "__main__":
     nums = [12, 25, 76, 38, 8, 2, 5]
     xs = [0, 1, 2, 3, 4, 5, 6]
 
-    result = p.map(calcNum, nums)
+
+
+    result = p.map(calcNum, zip(nums,xs))
     p.close()
     p.join()
 

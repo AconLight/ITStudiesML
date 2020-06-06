@@ -74,7 +74,7 @@ for (j in which(!is.na(dominant_frequencies))) {
 
 if (mindom == maxdom) modindx <- 0 else modindx <- mean(changes, na.rm = T) / dfrange
 #expected columns: ['meanfreq', 'sd', 'median', 'Q25', 'IQR', 'skew', 'kurt', 'sp.ent', 'sfm', 'mode', 'centroid', 'meanfun', 'minfun', 'maxfun', 'meandom', 'mindom', 'maxdom', 'dfrange', 'modindx']
-paste(c(meanfreq, sd, median, Q25, IQR, skew, kurt, sp.ent, sfm, mode,
+paste(c(meanfreq, sd, median, Q25, Q75, IQR, skew, kurt, sp.ent, sfm, mode,
         centroid, meanfun, minfun, maxfun, meandom, mindom, maxdom, dfrange, modindx), collapse = " ")
 #row_names <- c("duration", "meanfreq", "sd", "median", "Q25", "Q75", "IQR", "skew", "kurt", "sp.ent",
 #               "sfm", "mode", "centroid", "meanfun", "minfun", "maxfun", "meandom", "mindom", "maxdom", "dfrange", "modindx")
