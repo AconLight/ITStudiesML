@@ -8,10 +8,12 @@ from src.gender_recognition.audio.audio_training_examples import AudioSampleGene
 import pandas as pd
 import numpy as np
 
+
 class DatasetClasses:
     SILENCE = 0
     MALE = 1
     FEMALE = 2
+
 
 class AudioDataset():
 
@@ -25,8 +27,9 @@ class AudioDataset():
     def generate_dataset(self):
         return pd.DataFrame(data=np.concatenate(self.rows, axis=0))
 
-    def save(self,path):
+    def save(self, path):
         self.generate_dataset().to_csv(path)
+
 
 class AudioDatasetCreator:
     #
@@ -39,16 +42,15 @@ class AudioDatasetCreator:
     #   --> male
     #      ...
     #
-    def __init__(self, root_directory) -> None:
+    def __init__(self, root_directory, audio_sample_generator=AudioSampleGenerator(), save_each_n_files = 5) -> None:
         super().__init__()
         self.root_directory = root_directory
-        self.audio_sample_generator = AudioSampleGenerator()
+        self.audio_sample_generator = audio_sample_generator
         self.audio_processor = AudioProcessor.create_audio_processor()
         self.counter = 0
-        self.SAVE_EACH_N_FILES = 5
+        self.SAVE_EACH_N_FILES = save_each_n_files
 
-
-    def generate_dataset(self, save_path = None):
+    def generate_dataset(self, save_path=None):
         dataset = AudioDataset()
 
         self.process_directory(dataset, "male", save_path)
@@ -62,7 +64,8 @@ class AudioDatasetCreator:
         for filename in files:
             filepath = os.path.join(dir_path, filename)
 
-            window_is_person_pairs, sampling_rate = self.audio_sample_generator.generate_audio_window_is_person_pairs_for_audio(filepath)
+            window_is_person_pairs, sampling_rate = self.audio_sample_generator.generate_audio_window_is_person_pairs_for_audio(
+                filepath)
 
             for window_is_person_pair in window_is_person_pairs:
                 audio, is_person = window_is_person_pair
@@ -81,10 +84,9 @@ class AudioDatasetCreator:
 
             self.counter += 1
 
-            if save_path is not None and self.counter %self.SAVE_EACH_N_FILES == 0:
-                print("Saving dataset after samples " + str(self.counter) )
+            if save_path is not None and self.counter % self.SAVE_EACH_N_FILES == 0:
+                print("Saving dataset after samples " + str(self.counter))
                 dataset.save(save_path)
-
 
         if save_path is not None:
             print("Saving final dataset")

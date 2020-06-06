@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.gender_recognition.audio.audio_dataset_creation import AudioDatasetCreator
+from src.gender_recognition.audio.audio_dataset_creation import AudioDatasetCreator, AudioDataset
 
 
 class DatasetCreationTests(TestCase):
@@ -12,5 +12,4 @@ class DatasetCreationTests(TestCase):
         dataset = dataset_creator.generate_dataset(save_path='dataset.csv')
 
         #then
-        # self.assertNotEqual(dataset, None)
-        dataset.save('dataset.csv')
+        self.assertTrue(isinstance(dataset,AudioDataset))
