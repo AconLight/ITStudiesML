@@ -1,8 +1,8 @@
-options(warn = -1)
 library(audio)
 library(tuneR, warn.conflicts = FALSE)
 library(fftw)
 library(seewave)
+options(warn=-1)
 
 args <- commandArgs(trailingOnly = TRUE)
 sample_rate <- 44100
@@ -53,9 +53,9 @@ centroid <- spectral_analysis$cent / 1000
 ff <- seewave::fund(wave, f = wave@samp.rate, ovlp = 50, threshold = threshold,
                     plot = FALSE, wl = window_length)[, 2]
 
-meanfun <- mean(ff, na.rm = TRUE)
-minfun <- min(ff, na.rm = TRUE)
-maxfun <- max(ff, na.rm = TRUE)
+meanfun <- mean(ff, na.rm = TRUE, warn = FALSE)
+minfun <- min(ff, na.rm = TRUE, warn = FALSE)
+maxfun <- max(ff, na.rm = TRUE, warn = FALSE)
 
 #Dominant frecuency parameters (Highest amplitude)
 dominant_frequencies <- seewave::dfreq(wave, f = wave@samp.rate, wl = window_length, ovlp = 0, threshold = threshold, bandpass = bandpass_range, fftw = TRUE, plot = FALSE)[, 2]
