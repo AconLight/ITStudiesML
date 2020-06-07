@@ -59,6 +59,8 @@ class View(tk.Tk):
                     self.set_gender(Gender.MALE)
                 elif prediction == 'female':
                     self.set_gender(Gender.FEMALE)
+                elif prediction == 'silence':
+                    self.set_gender(Gender.NONE)
 
     def stop_recording(self):
         if self.recording_thread != None:
@@ -87,6 +89,7 @@ class RecordingPage(tk.Frame):
 class Gender(Enum):
     MALE = 'male'
     FEMALE = 'female'
+    NONE = 'silence'
 
 
 class GenederRecognitionPage(tk.Frame):
