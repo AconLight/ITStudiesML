@@ -7,7 +7,7 @@ class HighVariance(PreprocessAlgorithmBase):
 
     def __init__(self):
         self.params_possibilities = {
-            "columns_to_reduce": [2],
+            "columns_to_reduce": [0, 1, 2, 3],
         }
         self.name = 'High Variance'
 

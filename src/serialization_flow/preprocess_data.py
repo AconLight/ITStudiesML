@@ -17,8 +17,13 @@ class DataPreprocessor():
         # normalizacja
         zscore = ZScore()
         log1 = LogScale()
+        log1.params_possibilities = {"column_id": [8]}
         log2 = LogScale()
+        log2.params_possibilities = {"column_id": [9]}
+        log3 = LogScale()
+        log3.params_possibilities = {"column_id": [10]}
 
+        # self.data_preprocess_elements = [log1, log2, log3]
         self.data_preprocess_elements = []
 
     def __init__(self):

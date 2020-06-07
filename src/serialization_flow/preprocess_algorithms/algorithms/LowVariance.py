@@ -6,7 +6,7 @@ class LowVariance(PreprocessAlgorithmBase):
 
     def __init__(self):
             self.params_possibilities = {
-                "columns_to_reduce": [1, 10],
+                "columns_to_reduce": [3],
             }
             self.name = 'Low Variance'
 
@@ -24,9 +24,12 @@ class LowVariance(PreprocessAlgorithmBase):
         for col in range(column_size - params['columns_to_reduce']):
             idxs.append(np.argmin(variances))
             variances[idxs[col]] += max(variances)
-
+        comment = ""
         npdf = pd.DataFrame(columns=list(map(str, range(column_size - params['columns_to_reduce']))))
         for col in range(column_size - params['columns_to_reduce']):
             npdf[str(col)] = data_by_col[idxs[col]]
+            comment += str(cols[idxs[col]]) + " "
+
+        print(comment)
 
         return npdf
