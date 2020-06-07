@@ -16,6 +16,9 @@ class View(tk.Tk):
         tk.Tk.__init__(self, *args, **kwargs)
         self.recording_thread = None
         self.audio_processor = AudioProcessor.create_audio_processor()
+        self.last_predictions = []
+        self.moving_average_windows = 5
+        self.set_gender(Gender.NONE)
 
         self.geometry('600x500')
         self.title_font = tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
@@ -56,11 +59,45 @@ class View(tk.Tk):
                 # sleep(1)
                 prediction = self.audio_processor.process_recorded_audio()
                 if prediction == 'male':
-                    self.set_gender(Gender.MALE)
+                    current_prediction = Gender.MALE
                 elif prediction == 'female':
-                    self.set_gender(Gender.FEMALE)
+                    current_prediction = Gender.FEMALE
                 elif prediction == 'silence':
-                    self.set_gender(Gender.NONE)
+                    current_prediction = Gender.NONE
+                else:
+                    raise ValueError("Bad prediction value -> not handled!!")
+
+                self.set_gender(self.calculate_predicted_gender_based_on_last_n_windows(current_prediction))
+
+    #Last predictions average
+    def calculate_predicted_gender_based_on_last_n_windows(self, current_prediction):
+        self.last_predictions.insert(0,current_prediction)
+        if len(self.last_predictions) > self.moving_average_windows:
+            self.last_predictions = self.last_predictions[:-1]
+
+        counts_map = {}
+
+        for prediction in self.last_predictions:
+            if prediction not in counts_map.keys():
+                counts_map[prediction] = 1
+            else:
+                counts_map[prediction] += 1
+
+        max_value = max(counts_map.values())
+        top_counts_gender_list = []
+
+        for gender in counts_map.keys():
+            if counts_map[gender] == max_value:
+                top_counts_gender_list.append(gender)
+
+        #Return current if multiple values including current
+        if self.get_gender() in top_counts_gender_list:
+            return self.get_gender()
+        else:
+            return top_counts_gender_list[0]
+
+
+
 
     def stop_recording(self):
         if self.recording_thread != None:
@@ -68,6 +105,8 @@ class View(tk.Tk):
             self.recording_thread = None
 
 
+    def get_gender(self):
+        app.frames["GenederRecognitionPage"].get_gender()
 
     def set_gender(self,gender):
         app.frames["GenederRecognitionPage"].set_gender(gender)
@@ -131,6 +170,9 @@ class GenederRecognitionPage(tk.Frame):
             self.gender = gender
             self.redraw_widgets()
 
+    def get_gender(self):
+        return self.gender
+
 
     def change_gender(self):
         if self.gender == Gender.MALE:
@@ -151,5 +193,5 @@ class GenederRecognitionPage(tk.Frame):
 
 if __name__ == "__main__":
     app = View()
-    app.set_gender(Gender.FEMALE)
+    app.set_gender(Gender.NONE)
     app.mainloop()
