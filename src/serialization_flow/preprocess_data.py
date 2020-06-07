@@ -19,7 +19,7 @@ class DataPreprocessor():
         log1 = LogScale()
         log2 = LogScale()
 
-        self.data_preprocess_elements = [Chi2()]
+        self.data_preprocess_elements = []
 
     def __init__(self):
         self.setup1()
