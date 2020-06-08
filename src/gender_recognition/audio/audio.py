@@ -32,4 +32,4 @@ class AudioProcessor():
 
     @staticmethod
     def create_audio_processor():
-        return AudioProcessor('Rscript /home/hyphe/WFTIMS/MachineLearning/ITStudiesML/src/gender_recognition/audio/audio.R')
+        return AudioProcessor('"C:\\Program Files\\R\\R-4.0.0\\bin\\x64\\Rscript.exe" "C:\\Users\\stz\\Documents\\GitHub\\ITStudiesML\\src\\gender_recognition\\audio\\audio.R"')
