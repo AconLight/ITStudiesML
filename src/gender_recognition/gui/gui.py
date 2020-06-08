@@ -58,11 +58,11 @@ class View(tk.Tk):
                 # print("Hello", flush=True)
                 # sleep(1)
                 prediction = self.audio_processor.process_recorded_audio()
-                if prediction == 'male':
+                if prediction == 1:
                     current_prediction = Gender.MALE
-                elif prediction == 'female':
+                elif prediction == 2:
                     current_prediction = Gender.FEMALE
-                elif prediction == 'silence':
+                elif prediction == 0:
                     current_prediction = Gender.NONE
                 else:
                     raise ValueError("Bad prediction value -> not handled!!")
