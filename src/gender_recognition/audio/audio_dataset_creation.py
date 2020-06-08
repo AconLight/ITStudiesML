@@ -43,7 +43,7 @@ class AudioDatasetCreator:
     #   --> male
     #      ...
     #
-    def __init__(self, root_directory, audio_sample_generator=AudioSampleGenerator(), save_each_n_files = 5) -> None:
+    def __init__(self, root_directory, audio_sample_generator=AudioSampleGenerator(sampling_rate=48000, window_size=12000), save_each_n_files = 5) -> None:
         super().__init__()
         self.root_directory = root_directory
         self.audio_sample_generator = audio_sample_generator
