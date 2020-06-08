@@ -18,7 +18,6 @@ class View(tk.Tk):
         self.audio_processor = AudioProcessor.create_audio_processor()
         self.last_predictions = []
         self.moving_average_windows = 5
-        self.set_gender(Gender.NONE)
 
         self.geometry('600x500')
         self.title_font = tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
@@ -39,6 +38,7 @@ class View(tk.Tk):
         self.frames['GenederRecognitionPage'].grid(row=0, column=0, sticky="nsew")
         self.startup_actions['GenederRecognitionPage'] = self.start_recording
 
+        self.set_gender(Gender.NONE)
         self.show_frame("RecordingPage")
 
     def show_frame(self, page_name):
@@ -106,10 +106,10 @@ class View(tk.Tk):
 
 
     def get_gender(self):
-        app.frames["GenederRecognitionPage"].get_gender()
+        self.frames["GenederRecognitionPage"].get_gender()
 
     def set_gender(self,gender):
-        app.frames["GenederRecognitionPage"].set_gender(gender)
+        self.frames["GenederRecognitionPage"].set_gender(gender)
 
 class RecordingPage(tk.Frame):
 
