@@ -2,6 +2,7 @@ import librosa
 
 
 def get_window_indecies(audio_series, window_size):
+    oko =  [window_size*i for i in range(len(audio_series) // window_size)]
     return [window_size*i for i in range(len(audio_series) // window_size)]
 
 

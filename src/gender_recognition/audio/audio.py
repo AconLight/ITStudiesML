@@ -16,7 +16,7 @@ class AudioProcessor():
         return predict(self.edit_nan_and_inf_data(data))[0]
 
     def process_audio_from_filepath(self, filepath):
-        command = shlex.split(self.r_script_path + ' ' + os.path.join(os.getcwd(),filepath))
+        command = shlex.split(self.r_script_path + ' ' + '"{}\\{}"'.format(os.getcwd(),filepath))
         data = subprocess.check_output(command)
         return self.edit_nan_and_inf_data(data)
 
@@ -32,4 +32,4 @@ class AudioProcessor():
 
     @staticmethod
     def create_audio_processor():
-        return AudioProcessor('Rscript /home/hyphe/WFTIMS/MachineLearning/ITStudiesML/src/gender_recognition/audio/audio.R')
+        return AudioProcessor('"C:\\Program Files\\R\\R-4.0.0\\bin\\x64\\Rscript.exe" "C:\\Users\\stz\\Documents\\GitHub\\ITStudiesML\\src\\gender_recognition\\audio\\audio.R"')
