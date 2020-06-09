@@ -5,10 +5,10 @@ library(seewave)
 options(warn=-1)
 
 args <- commandArgs(trailingOnly = TRUE)
-sample_rate <- 48000
+sample_rate <- 44100
 record_length <- 0.5
 bandpass_range_basic <- c(0, 44000)
-window_length <- 12000
+window_length <- 11025
 threshold <- 5
 
 print(length(args))

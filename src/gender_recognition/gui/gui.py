@@ -17,7 +17,7 @@ class View(tk.Tk):
         self.recording_thread = None
         self.audio_processor = AudioProcessor.create_audio_processor()
         self.last_predictions = []
-        self.moving_average_windows = 5
+        self.moving_average_windows = 3
 
         self.geometry('600x500')
         self.title_font = tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
@@ -58,6 +58,7 @@ class View(tk.Tk):
                 # print("Hello", flush=True)
                 # sleep(1)
                 prediction = self.audio_processor.process_recorded_audio()
+                print(prediction)
                 if prediction == 1:
                     current_prediction = Gender.MALE
                 elif prediction == 2:
@@ -89,6 +90,9 @@ class View(tk.Tk):
         for gender in counts_map.keys():
             if counts_map[gender] == max_value:
                 top_counts_gender_list.append(gender)
+
+        if Gender.NONE in counts_map.keys():
+            return Gender.NONE
 
         #Return current if multiple values including current
         if self.get_gender() in top_counts_gender_list:
